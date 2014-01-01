@@ -1,0 +1,70 @@
+<html ng-app="TriviaBot">
+<head>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
+	<!-- <script type="text/javascript" src="angular.min.js"></script> -->
+	<script type="text/javascript" src="triviabot.js"></script>
+</head>
+<body ng-controller="TriviaBotController">
+
+<div class="page_header">
+	<h3>The Riddler</h3>
+</div>
+
+<div class="panel_left">
+
+	<div class="leaderboard">
+		<h3>Leaderboard</h3>
+
+		<ul>
+			<li ng-repeat="(user, score) in all_users" ng-class="{bold: user == nick}">
+				{{user}}
+				<span class="score">{{score}}</span>
+			</li>
+		</ul>
+
+	</div>
+
+</div>
+
+<div class="main_area">
+	<div class="messages">
+		<ul id="message_list">
+			<li ng-repeat="(key, msg) in all_msgs" ng-class="{riddler_msg: is_riddler(msg.nick)}"><strong>{{msg.nick}}:</strong> {{msg.msg}}</li>
+		</ul>
+	</div>
+
+	<form class="bottom_form">
+		<button type="submit" class="submit_msg" ng-click="submit_msg()">Submit</button>
+		<input type="text" class="my_msg" ng-model="my_msg" ng-disabled="nick == undefined">
+	</form>
+</div>
+
+<div class="modal_backdrop" id="modal_backdrop"></div>
+<div class="popup" id="popup">
+	<div class="header">
+		Welcome to The Riddler
+	</div>
+	<div class="body">
+		<p>
+			Answer as many questions as you can before someone else beats you to it.
+		</p>
+
+		<p>
+			Just type in your nickname and start playing - As simple as that
+		</p>
+
+		<p class="align_center">
+		<input type="text" class="nick" ng-model="nick" placeholder="Enter your nickname">
+		</p>
+	</div>
+	<div class="footer">
+		<a href="javascript: void(0);" class="login_button" ng-click="set_nick()">Start Playing</a>
+	</div>
+</div>
+
+<script src="/node_modules/socket.io/node_modules/socket.io-client/dist/socket.io.js"></script>
+
+<link rel="stylesheet" type="text/css" href="triviabot.css">
+
+</body>
+</html>
