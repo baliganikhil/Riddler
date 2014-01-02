@@ -21,6 +21,7 @@ var hint = '';
 var is_answered = false;
 
 var streak = {nick: '', streak: 0};
+var MAX_STREAK = 3;
 
 String.prototype.replaceAt = function(index, character) {
   return this.substr(0, index) + character + this.substr(index + character.length);
@@ -90,7 +91,7 @@ io.sockets.on('connection', function(socket) {
                 if (streak.nick == nick) {
                     streak.streak += 1;
 
-                    if (streak.streak >= 3) {
+                    if (streak.streak >= MAX_STREAK) {
                         reply += streak.nick + ' is on a streak with ' + streak.streak + ' consecutive points!';
                     }
                 } else {
@@ -150,9 +151,14 @@ io.sockets.on('connection', function(socket) {
             var raw_question = questions[question_ctr]
             var split_string = raw_question.split('^');
 
-            category = split_string[0].replace('_', ' ');
-            question = split_string[1];
-            answer = split_string[2].toLowerCase().trim();
+            try {
+                category = split_string[0].replace('_', ' ');
+                question = split_string[1];
+                answer = split_string[2].toLowerCase().trim();
+            } catch (e) {
+                riddler_broadcast(RIDDLER, 'I hope you are excited');
+                return;
+            }
 
             answer = answer.replace(/[ ]+/g, ' ');
 
@@ -169,7 +175,12 @@ io.sockets.on('connection', function(socket) {
             riddler_broadcast(RIDDLER, 'Hint: ' + hint);
             phase += 1;
         } else if (phase == 3) {
-            var msg = 'Nobody got that one. The answer is ' + answer;
+            var msg = 'Nobody got that one. The answer is ' + answer + '. ';
+
+            if (streak.streak >= MAX_STREAK) {
+                msg += streak.nick + ' was on a streak with ' + streak.streak + ' consecutive points! Too bad...';
+            }
+
             riddler_broadcast(RIDDLER, msg);
             phase = 0;
         } else {
