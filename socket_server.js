@@ -199,6 +199,7 @@ io.sockets.on('connection', function(socket) {
 
             if (streak.streak >= MAX_STREAK) {
                 msg += streak.nick + ' was on a streak with ' + streak.streak + ' consecutive points! Too bad...';
+                streak = {nick: '', streak: 0};
             }
 
             riddler_broadcast(RIDDLER, msg);
