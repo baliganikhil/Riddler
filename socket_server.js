@@ -1,11 +1,16 @@
 var io = require('socket.io').listen(8888);
 var fs = require('fs');
 
+/***********************************/
+var mongoose = require('mongoose');
+var User = '';
+var db_connection = 'mongodb://localhost/riddler';
+/***********************************/
+
 var all_users = {};
+
 var game_started = false;
 var RIDDLER = 'Riddler';
-
-var inactive_users = {};
 
 /*
     Phase 0: Ask question
@@ -28,7 +33,23 @@ String.prototype.replaceAt = function(index, character) {
 }
 
 var questions = [];
-generate_questions();
+
+// Initialising Functions
+(function() {
+    init_mongoose_schema();
+    generate_questions();
+})();
+
+
+/************************************************/
+// Reload questions once in every x hours
+var time_to_load_questions = 3 * 60 * 60 * 1000;
+setInterval(function() {
+    generate_questions();
+    save_players_data(all_users);
+}, time_to_load_questions);
+/************************************************/
+
 
 var allClients = [];
 
@@ -58,21 +79,14 @@ io.sockets.on('connection', function(socket) {
             socket.nick = nick;
         }
 
+        // Check if user exists
+        function callback(nick, msg) {
+            console.log('Inside call back');
+            riddler_broadcast(nick, msg);
+            send_user_info();
+        };
 
-        if (inactive_users.hasOwnProperty(nick)) {
-            // Returning user
-            all_users[nick] = inactive_users[nick] == undefined ? 0 : inactive_users[nick];
-            var welcome = 'Hey ' + nick + '! Welcome back. Your score is ' + all_users[nick];
-            riddler_broadcast(RIDDLER, welcome);
-
-        } else if (!all_users.hasOwnProperty(nick)) {
-            all_users[nick] = 0;
-
-            var welcome = 'Hey ' + nick + '! Welcome to The Riddler. Play nice and no Googling!'
-            riddler_broadcast(RIDDLER, welcome);
-        }
-
-        send_user_info();
+        get_player_data(nick, callback);
 
         allClients.push(socket);
     });
@@ -111,8 +125,14 @@ io.sockets.on('connection', function(socket) {
 
     socket.on('disconnect', function() {
         var nick = socket.nick;
+        var score = all_users[nick];
 
-        inactive_users[nick] = all_users[nick];
+        if (score > 0) {
+            var payload = {};
+            payload[nick] = score;
+            save_players_data(payload);
+        }
+
         delete all_users[nick];
 
         var i = allClients.indexOf(socket);
@@ -224,6 +244,7 @@ function generate_hint() {
 }
 
 function generate_questions() {
+    console.log('Loading questions...');
     questions = [];
     var folder = './questions';
 
@@ -250,6 +271,66 @@ function generate_questions() {
             console.log('Rejoice! We have ' + questions.length + ' questions');
         });
     });
+}
 
+function init_mongoose_schema() {
+    var userSchema = mongoose.Schema({
+        nick: String,
+        score: Number
+    });
 
+    User = mongoose.model('User', userSchema);
+}
+
+function save_players_data(usergroup) {
+    mongoose.connect(db_connection);
+
+    var db = mongoose.connection;
+    db.on('error', console.error.bind(console, 'connection error:'));
+    db.once('open', function() {
+
+        for (nick in usergroup) {
+            User.findOneAndUpdate({nick: nick}, {score: usergroup[nick]}, {upsert: true}, function(err, doc) {
+                if (err) {
+                    console.log(err);
+                }
+
+                // if (doc == null) {
+                //     User.save({nick: nick, score: usergroup[nick]});
+                // }
+
+                console.log('Saved: User - ' + nick);
+            });
+        }
+
+        db.close();
+    });
+}
+
+function get_player_data(nick, callback) {
+    mongoose.connect(db_connection);
+
+    var db = mongoose.connection;
+    db.on('error', console.error.bind(console, 'connection error:'));
+    db.once('open', function() {
+        User.findOne({nick: nick}, function(err, doc) {
+            if (doc == null) {
+                // New user
+                all_users[nick] = 0;
+
+                var welcome = 'Hey ' + nick + '! Welcome to The Riddler. Play nice and no Googling!'
+                callback(RIDDLER, welcome);
+                console.log('New user');
+            } else {
+                // Existing user
+                all_users[nick] = doc.score;
+                var welcome = 'Hey ' + nick + '! Welcome back. Your score is ' + all_users[nick];
+                callback(RIDDLER, welcome);
+                console.log('Existing user');
+            }
+
+            db.close();
+
+        });
+    });
 }
