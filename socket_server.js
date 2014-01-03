@@ -199,9 +199,9 @@ io.sockets.on('connection', function(socket) {
 
             if (streak.streak >= MAX_STREAK) {
                 msg += streak.nick + ' was on a streak with ' + streak.streak + ' consecutive points! Too bad...';
-                streak = {nick: '', streak: 0};
             }
 
+            streak = {nick: '', streak: 0};
             riddler_broadcast(RIDDLER, msg);
             phase = 0;
         } else {
@@ -266,7 +266,7 @@ function generate_questions() {
                 return true;
             }
 
-            questions = questions.concat(data.split('\r\n'));
+            questions = questions.concat(data.split(/\r?\n/));
 
             console.log('Loading ' + filename + '...');
             console.log('Rejoice! We have ' + questions.length + ' questions');
