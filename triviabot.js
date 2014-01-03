@@ -65,11 +65,18 @@ TriviaBot.controller('TriviaBotController', function($scope) {
 
 		socket.emit('submit_msg', payload);
 
+		$scope.prev_msg = $scope.my_msg;
 		$scope.my_msg = undefined;
 	};
 
 	$scope.is_riddler = function(nick) {
 		return nick == 'Riddler';
+	};
+
+	$scope.key_pressed = function(e) {
+		if (e.which == 38) {
+			$scope.my_msg = $scope.prev_msg;
+		}
 	};
 
 });

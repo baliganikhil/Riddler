@@ -35,7 +35,7 @@
 
 	<form class="bottom_form">
 		<button type="submit" class="submit_msg" ng-click="submit_msg()">Submit</button>
-		<input type="text" class="my_msg" ng-model="my_msg" ng-disabled="nick == undefined">
+		<input type="text" class="my_msg" ng-model="my_msg" ng-disabled="nick == undefined" ng-keyup="key_pressed($event)">
 	</form>
 </div>
 
