@@ -109,6 +109,10 @@ io.sockets.on('connection', function(socket) {
                         reply += streak.nick + ' is on a streak with ' + streak.streak + ' consecutive points!';
                     }
                 } else {
+                    if (streak.streak >= MAX_STREAK) {
+                        reply += streak.nick + '\'s streak of ' + streak.streak + ' has been broken!';
+                    }
+
                     streak.nick = nick;
                     streak.streak = 1;
                 }
@@ -139,6 +143,8 @@ io.sockets.on('connection', function(socket) {
         allClients.splice(i, 1);
 
         riddler_broadcast(RIDDLER, nick + ' has left...');
+
+        send_user_info();
 
     });
 
