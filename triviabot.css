@@ -155,3 +155,6 @@ body {
 .hide {
   display: none;
   opacity: 0; }
+
+.junk_data {
+  color: #fff; }

@@ -5,12 +5,20 @@
 */
 var TriviaBot = angular.module('TriviaBot', []);
 
-TriviaBot.controller('TriviaBotController', function($scope) {
+TriviaBot.controller('TriviaBotController', function($scope, $sce) {
 	var socket = '';
 	socket = io.connect('http://www.nikhilbaliga.com:8888');
 	socket = io.connect('http://localhost:8888');
 
 	$scope.all_msgs = [];
+
+	$scope.to_trusted = function(html_code) {
+    	return $sce.trustAsHtml(obfuscate(html_code));
+    };
+
+    function obfuscate(input) {
+		return input.replace(/ /g, '<span class="junk_data">i</span>');
+	};
 
 	socket.on('connect', function() {
 		socket.on('riddler_msg', function(data) {

@@ -48,7 +48,7 @@
 <div class="main_area">
 	<div class="messages">
 		<ul id="message_list">
-			<li ng-repeat="(key, msg) in all_msgs" ng-class="{riddler_msg: is_riddler(msg.nick)}"><strong>{{msg.nick}}:</strong> {{msg.msg}}</li>
+			<li ng-repeat="(key, msg) in all_msgs" ng-class="{riddler_msg: is_riddler(msg.nick)}"><strong>{{msg.nick}}:</strong> <span ng-bind-html="to_trusted(msg.msg)"></span></li>
 		</ul>
 	</div>
 
