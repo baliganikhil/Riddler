@@ -3,11 +3,30 @@
 	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
 	<!-- <script type="text/javascript" src="angular.min.js"></script> -->
 	<script type="text/javascript" src="triviabot.js"></script>
+
+	<title>Riddler - Think you are smart?</title>
 </head>
 <body ng-controller="TriviaBotController" ng-cloak>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_IN/all.js#xfbml=1&appId=548610865234009";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
 <div class="page_header">
 	<h3>The Riddler</h3>
+
+	<div class="fb_like">
+		<a href="https://twitter.com/share" class="twitter-share-button" data-text="Think you are smart? Play Riddler with friends and other smart people" data-via="Gulagulaananda">Tweet</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+		<div class="fb-like" data-href="http://ec2-184-73-147-94.compute-1.amazonaws.com/riddler" data-width="100px" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+	</div>
 </div>
 
 <div class="panel_left">
