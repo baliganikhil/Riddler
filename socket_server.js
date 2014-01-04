@@ -181,7 +181,7 @@ io.sockets.on('connection', function(socket) {
                 is_answered = false;
 
                 try {
-                    category = doc.category;
+                    category = doc.category.replace(/_/g, ' ');
                     question = doc.question;
                     answer = doc.answer;
 
