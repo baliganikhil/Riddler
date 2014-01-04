@@ -7,7 +7,7 @@ var TriviaBot = angular.module('TriviaBot', []);
 
 TriviaBot.controller('TriviaBotController', function($scope) {
 	var socket = '';
-	socket = io.connect('http://ec2-184-73-147-94.compute-1.amazonaws.com:8888');
+	socket = io.connect('http://www.nikhilbaliga.com:8888');
 	socket = io.connect('http://localhost:8888');
 
 	$scope.all_msgs = [];
