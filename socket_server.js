@@ -4,6 +4,7 @@ var fs = require('fs');
 /***********************************/
 var mongoose = require('mongoose');
 var User = '';
+var Question = '';
 var db_connection = 'mongodb://localhost/riddler';
 /***********************************/
 
@@ -17,6 +18,9 @@ var RIDDLER = 'Riddler';
     Phase 1: Hint 1
     Phase 2: Hint 2
 */
+
+var total_question_count = 0;
+
 
 var phase = 0;
 var category = '';
@@ -37,7 +41,8 @@ var questions = [];
 // Initialising Functions
 (function() {
     init_mongoose_schema();
-    generate_questions();
+    get_question_count();
+
 })();
 
 
@@ -45,8 +50,8 @@ var questions = [];
 // Reload questions once in every x hours
 var time_to_load_questions = 3 * 60 * 60 * 1000;
 setInterval(function() {
-    generate_questions();
     save_players_data(all_users);
+    get_question_count();
 }, time_to_load_questions);
 /************************************************/
 
@@ -171,30 +176,31 @@ io.sockets.on('connection', function(socket) {
     setInterval(function() {
         var question_ctr = 0;
         if (phase === 0) {
-            question_ctr = Math.round(Math.random() * questions.length * 100) % questions.length;
-            is_answered = false;
 
-            var raw_question = questions[question_ctr]
-            var split_string = raw_question.split('^');
+            function callback(doc) {
+                is_answered = false;
 
-            try {
-                category = split_string[0].replace('_', ' ');
-                question = split_string[1];
-                answer = split_string[2].toLowerCase().trim();
-            } catch (e) {
-                riddler_broadcast(RIDDLER, 'I hope you are excited');
-                return;
+                try {
+                    category = doc.category;
+                    question = doc.question;
+                    answer = doc.answer;
+
+                    answer = answer.toLowerCase().trim().replace(/[ ]+/g, ' ');
+                } catch (e) {
+                    riddler_broadcast(RIDDLER, 'I hope you are excited');
+                    return;
+                }
+
+                var msg = 'Category: ' + category + '...   ' + question;
+                riddler_broadcast(RIDDLER, msg);
+
+                hint = generate_hint();
+                riddler_broadcast(RIDDLER, 'Hint: ' + hint);
+
+                phase += 1;
             }
 
-            answer = answer.replace(/[ ]+/g, ' ');
-
-            var msg = 'Category: ' + category + '...   ' + question;
-            riddler_broadcast(RIDDLER, msg);
-
-            hint = generate_hint();
-            riddler_broadcast(RIDDLER, 'Hint: ' + hint);
-
-            phase += 1;
+            get_question(callback);
 
         } else if (phase == 1 || phase == 2) {
             hint = generate_hint();
@@ -250,43 +256,21 @@ function generate_hint() {
 
 }
 
-function generate_questions() {
-    console.log('Loading questions...');
-    questions = [];
-    var folder = './questions';
-
-    var question_files = fs.readdirSync(folder);
-    question_files.forEach(function(filename) {
-        var split_string = filename.split('.');
-
-        if (split_string[split_string.length - 1] != 'csv') {
-            return true;
-        } else {
-            filename = folder + '/' + filename;
-        }
-
-        fs.readFile(filename, 'utf-8', function(err, data) {
-
-            if (err !== null) {
-                console.log(err);
-                return true;
-            }
-
-            questions = questions.concat(data.split(/\r?\n/));
-
-            console.log('Loading ' + filename + '...');
-            console.log('Rejoice! We have ' + questions.length + ' questions');
-        });
-    });
-}
-
 function init_mongoose_schema() {
     var userSchema = mongoose.Schema({
         nick: String,
         score: Number
     });
 
+    var questionSchema = mongoose.Schema({
+        qid: Number,
+        category: String,
+        question: String,
+        answer: String,
+    });
+
     User = mongoose.model('User', userSchema);
+    Question = mongoose.model('Question', questionSchema);
 }
 
 function save_players_data(usergroup) {
@@ -301,10 +285,6 @@ function save_players_data(usergroup) {
                 if (err) {
                     console.log(err);
                 }
-
-                // if (doc == null) {
-                //     User.save({nick: nick, score: usergroup[nick]});
-                // }
 
                 console.log('Saved: User - ' + nick);
             });
@@ -336,6 +316,45 @@ function get_player_data(nick, callback) {
                 console.log('Existing user');
             }
 
+            db.close();
+
+        });
+    });
+}
+
+function get_question(callback) {
+    var qno = Math.round(Math.random() * total_question_count * 100) % total_question_count;
+    qno = qno == 0 ? 1 : qno;
+
+    mongoose.connect(db_connection);
+    var db = mongoose.connection;
+    db.on('error', console.error.bind(console, 'connection error:'));
+    db.once('open', function() {
+        Question.findOne({qid: qno}, function(err, doc) {
+            console.log(doc);
+
+            if (doc == null) {
+
+            } else {
+                callback(doc);
+            }
+
+            db.close();
+
+        });
+    });
+}
+
+function get_question_count() {
+    mongoose.connect(db_connection);
+
+    var db = mongoose.connection;
+    db.on('error', console.error.bind(console, 'connection error:'));
+    db.once('open', function() {
+        Question.count(function(err, count) {
+
+            console.log('Found ' + count + ' questions');
+            total_question_count = count;
             db.close();
 
         });

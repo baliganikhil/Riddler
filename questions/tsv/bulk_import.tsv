@@ -1,0 +1,914 @@
+1	FAMOUS_BOOKS	Don Quixote	Miguel de Cervantes
+2	FAMOUS_BOOKS	War and Peace	Leo Tolstoy
+3	FAMOUS_BOOKS	Ulysses	James Joyce
+4	FAMOUS_BOOKS	In Search of Lost Time	Marcel Proust
+5	FAMOUS_BOOKS	The Brothers Karamazov	Feodor Dostoevsky
+6	FAMOUS_BOOKS	Moby-Dick	Herman Melville
+7	FAMOUS_BOOKS	Madame Bovary	Gustave Flaubert
+8	FAMOUS_BOOKS	Middlemarch	George Eliot
+9	FAMOUS_BOOKS	The Magic Mountain	Thomas Mann
+10	FAMOUS_BOOKS	The Tale of Genji	Murasaki Shikibu
+11	FAMOUS_BOOKS	Emma	Jane Austen
+12	FAMOUS_BOOKS	Bleak House	Charles Dickens
+13	FAMOUS_BOOKS	Anna Karenina	Leo Tolstoy
+14	FAMOUS_BOOKS	Adventures of Huckleberry Finn	Mark Twain
+15	FAMOUS_BOOKS	Tom Jones	Henry Fielding
+16	FAMOUS_BOOKS	Great Expectations	Charles Dickens
+17	FAMOUS_BOOKS	"""Absalom, Absalom!"""	William Faulkner
+18	FAMOUS_BOOKS	The Ambassadors	Henry James
+19	FAMOUS_BOOKS	One�Hundred�Years�of�Solitude	Gabriel Garcia Marquez
+20	FAMOUS_BOOKS	The Great Gatsby	F. Scott Fitzgerald
+21	FAMOUS_BOOKS	To The Lighthouse	Virginia Woolf
+22	FAMOUS_BOOKS	Crime and Punishment	Feodor Dostoevsky
+23	FAMOUS_BOOKS	The Sound and the Fury	William Faulkner
+24	FAMOUS_BOOKS	Vanity Fair	William Makepeace Thackeray
+25	FAMOUS_BOOKS	Invisible Man	Ralph Ellison
+26	FAMOUS_BOOKS	Finnegans Wake	James Joyce
+27	FAMOUS_BOOKS	The Man Without Qualities	Robert Musil
+28	FAMOUS_BOOKS	Gravity's Rainbow	Thomas Pynchon
+29	FAMOUS_BOOKS	The Portrait of a Lady	Henry James
+30	FAMOUS_BOOKS	Women in Love	D. H. Lawrence
+31	FAMOUS_BOOKS	The Red and the Black	Stendhal
+32	FAMOUS_BOOKS	Tristram Shandy	Laurence Sterne
+33	FAMOUS_BOOKS	Dead Souls	Nikolai Gogol
+34	FAMOUS_BOOKS	Tess of the D'Urbervilles	Thomas Hardy
+35	FAMOUS_BOOKS	Buddenbrooks	Thomas Mann
+36	FAMOUS_BOOKS	Le Pere Goriot	Honore de Balzac
+37	FAMOUS_BOOKS	A Portrait of the Artist as a Young Man	James Joyce
+38	FAMOUS_BOOKS	Wuthering Heights	Emily Bronte
+39	FAMOUS_BOOKS	The Tin Drum	Gunter Grass
+40	FAMOUS_BOOKS	Molloy; Malone Dies; The Unnamable	Samuel Beckett
+41	FAMOUS_BOOKS	Pride and Prejudice	Jane Austen
+42	FAMOUS_BOOKS	The Scarlet Letter	Nathaniel Hawthorne
+43	FAMOUS_BOOKS	Fathers and Sons	Ivan Turgenev
+44	FAMOUS_BOOKS	Nostromo	Joseph Conrad
+45	FAMOUS_BOOKS	Beloved	Toni Morrison
+46	FAMOUS_BOOKS	An American Tragedy	Theodore Dreiser
+47	FAMOUS_BOOKS	Lolita	Vladimir Nabokov
+48	FAMOUS_BOOKS	The Golden Notebook	Doris Lessing
+49	FAMOUS_BOOKS	Clarissa	Samuel Richardson
+50	FAMOUS_BOOKS	Dream of the Red Chamber	Cao Xueqin
+51	FAMOUS_BOOKS	The Trial	Franz Kafka
+52	FAMOUS_BOOKS	Jane Eyre	Charlotte Bronte
+53	FAMOUS_BOOKS	The Red Badge of Courage	Stephen Crane
+54	FAMOUS_BOOKS	The Grapes of Wrath	John Steinbeck
+55	FAMOUS_BOOKS	Petersburg	Andrey Bely
+56	FAMOUS_BOOKS	Things Fall Apart	Chinue Achebe
+57	FAMOUS_BOOKS	The Princess of Cleves	Madame de Lafayette
+58	FAMOUS_BOOKS	The Stranger	Albert Camus
+59	FAMOUS_BOOKS	My Antonia	Willa Cather
+60	FAMOUS_BOOKS	The�Counterfeiters	Andre Gide
+61	FAMOUS_BOOKS	The Age of Innocence	Edith Wharton
+62	FAMOUS_BOOKS	The Good Soldier	Ford Madox Ford
+63	FAMOUS_BOOKS	The Awakening	Kate Chopin
+64	FAMOUS_BOOKS	A Passage to India	E. M. Forster
+65	FAMOUS_BOOKS	Herzog	Saul Bellow
+66	FAMOUS_BOOKS	Germinal	Emile Zola
+67	FAMOUS_BOOKS	Call It Sleep	Henry Roth
+68	FAMOUS_BOOKS	U.S.A. Trilogy	John�Dos�Passos
+69	FAMOUS_BOOKS	Hunger	Knut Hamsun
+70	FAMOUS_BOOKS	Berlin Alexanderplatz	Alfred Doblin
+71	FAMOUS_BOOKS	Cities of Salt	'Abd al-Rahman Munif
+72	FAMOUS_BOOKS	The Death of Artemio Cruz	Carlos Fuentes
+73	FAMOUS_BOOKS	A Farewell to Arms	Ernest Hemingway
+74	FAMOUS_BOOKS	Brideshead Revisited	Evelyn Waugh
+75	FAMOUS_BOOKS	The Last Chronicle of Barset	Anthony Trollope
+76	FAMOUS_BOOKS	The Pickwick Papers	Charles Dickens
+77	FAMOUS_BOOKS	Robinson Crusoe	Daniel Defoe
+78	FAMOUS_BOOKS	The�Sorrows�of�Young�Werther	Johann Wolfgang von Goethe
+79	FAMOUS_BOOKS	Candide	Voltaire
+80	FAMOUS_BOOKS	Native Son	Richard Wright
+81	FAMOUS_BOOKS	Under the Volcano	Malcolm Lowry
+82	FAMOUS_BOOKS	Oblomov	Ivan Goncharov
+83	FAMOUS_BOOKS	Their Eyes Were Watching God	Zora Neale Hurston
+84	FAMOUS_BOOKS	Waverley	Sir Walter Scott
+85	FAMOUS_BOOKS	Snow Country	Kawabata Yasunari
+86	FAMOUS_BOOKS	Nineteen Eighty-Four	George Orwell
+87	FAMOUS_BOOKS	The Betrothed	Alessandro Manzoni
+88	FAMOUS_BOOKS	The Last of the Mohicans	James Fenimore Cooper
+89	FAMOUS_BOOKS	Uncle Tom's Cabin	Harriet Beecher Stowe
+90	FAMOUS_BOOKS	Les Miserables	Victor Hugo
+91	FAMOUS_BOOKS	On the Road	Jack Kerouac
+92	FAMOUS_BOOKS	Frankenstein	Mary Shelley
+93	FAMOUS_BOOKS	The Leopard	Giuseppe Tomasi di Lampedusa
+94	FAMOUS_BOOKS	The Catcher in the Rye	J.D. Salinger
+95	FAMOUS_BOOKS	The Woman in White	Wilkie Collins
+96	FAMOUS_BOOKS	The Good Soldier Svejk	Jaroslav Hasek
+97	FAMOUS_BOOKS	Dracula	Bram Stoker
+98	FAMOUS_BOOKS	The Three Musketeers	Alexandre Dumas
+99	FAMOUS_BOOKS	The Hound of Baskervilles	Arthur Conan Doyle
+100	FAMOUS_BOOKS	Gone with the Wind	Margaret MitchellGK	Which Mediterranean countries orchestra is bigger than its army	Monaco
+101	GK	What links stags tails, pickled worms, gallstones, tomatoes	Once thought to be Aphrodisiacs
+102	GK	Baked beans were originally served in what sauce	Treacle - molasses
+103	GK	Where can you buy a copy of Penguin News	Falkland Islands
+104	GK	Who was the hero of the old TV cop series Dragnet	Sergeant Joe Friday
+105	GK	Which African country was founded by Americans	Liberia
+106	GK	What was Britain called - before it was Britain	Albion
+107	GK	What part of a frog do you rub to hypnotise it	Its belly
+108	GK	How did multi millionaire Russell Sage save money	Not wear underwear
+109	GK	How was USA president James Buchanan different from all rest	Bachelor maybe gay
+110	GK	What's involved in 20% of car accidents in Sweden	A moose
+111	GK	What's unusual about evangelist Amy Semple McPhersons coffin	Contains Telephone
+112	GK	Who would use a swozzle	Punch and Judy man
+113	GK	What does a tailor do with his plonker	Press suits
+114	GK	Churches in Malta have two what	Clocks right and wrong confuse devil
+115	GK	Marnie Nixon what Deborah Kerr Natilie Wood Audrey Hepburn	Dubbed in their singing voices
+116	GK	Which Italian tractor maker tried making cars in 1960s	Ferruchio Lamborghini
+117	GK	What first appeared on Page 1 of the Times 3 May 1966	News stories
+118	GK	Caruso put what in Nellie Melbas hand singing tiny hand frozen	Hot Sausage
+119	GK	What would you do with an Edzell blue	Eat it
+120	GK	In what month did the Russian October revolution take place	November
+121	GK	Nobody's perfect is the last line in which classic comedy film	Some Like it Hot
+122	GK	How did Buffalo Bill stick to one glass whisky a day	Quart glass
+123	GK	In 1760 what means of personal transport was invented	Roller Skates
+124	GK	What three counties were Eliza Dolittle taught to pronounce	Hertford Hereford Hampshire
+125	GK	In Hitchcock's film The Trouble with Harry - what was the trouble	He was dead
+126	GK	What was the first gramophone record made from	Tinfoil
+127	GK	What did George Washington soak his wooden teeth in for taste	Port
+128	GK	George V1 Mozart Al Jolson Casanova - which organisation	Freemasons
+129	GK	Who said "Its so long since sex I forget who gets tied up"	Joan Rivers
+130	GK	St Appolonia Patron Saint of what	Toothache
+131	GK	What is measured on the Gay-Lussac scale	Alcohol strength
+132	GK	A squid found in New Zealand had the biggest what ever seen	Eye 15.75 inches
+133	GK	What was the first country to guarantee freedom of worship	Transylvania
+134	GK	which famous person invented the cat flap	Isaac Newton
+135	GK	By law what can you not do in Minnesota with your washing line	Put male female washing together
+136	GK	Why do Tibetans grow long nails on little fingers	To pick noses efficiently
+137	GK	Richard Penniman became famous as who	Little Richard
+138	GK	What is a snood	A kind of hairnet
+139	GK	Who said "men are creatures with two legs and 8 hands"	Jayne Mansfield
+140	GK	Which European country eats the most breakfast cereal	Britain
+141	GK	Philosopher Jeremy Bentham has a very unusual pet - what	Tea Pot
+142	GK	What country did Italy invade in 1935	Abyssinia - Ethiopia
+143	GK	Who sang the title song in the film Grease	Frankie Valli
+144	GK	What is produced in a ginnery	Cotton
+145	GK	What was made illegal in England in 1439	Kissing
+146	GK	What was invented by Dr Albert Southwick in 1881	Electric chair
+147	GK	In which country are you most likely to die from a scorpion sting	Mexico (1000 a year)
+148	GK	Who is the most filmed author	Shakespeare over 300
+149	GK	Excluding religious works what is the worlds top selling book	Guinness Book of RecordsGK	Carl and the Passions changed band name to what?	Beach Boys
+150	GK	How many rings on the Olympic flag?	Five
+151	GK	What colour is vermilion a shade of?	Red
+152	GK	King Zog ruled which country?	Albania
+153	GK	What colour is Spock's blood?	Green
+154	GK	Where in your body is your patella?	Knee
+155	GK	Where can you find London bridge today?	USA
+156	GK	What spirit is mixed with ginger beer in a Moscow mule?	Vodka
+157	GK	Who was the first man in space?	Yuri Gagarin
+158	GK	What would you do with a Yashmak?	Wear it
+159	GK	Who betrayed Jesus to the Romans?	Judas Escariot
+160	GK	Which mammal lays eggs?	Duck billed platypus
+161	GK	On television what was Flipper?	Dolphin
+162	GK	Whose band was The Quarrymen?	John Lenon
+163	GK	Which was the most successful Grand National horse?	Red Rum
+164	GK	Who starred as the Six Million Dollar Man?	Lee Majors
+165	GK	In the song Waltzing Matilda - What is a Jumbuck?	Sheep
+166	GK	Who was Dan Dare's greatest enemy in the Eagle Mekon
+167	GK	What is Dick Grayson better known as?	Robin
+168	GK	What was given on the fourth day of Christmas?	Calling birds
+169	GK	What was Skippy ( on TV )?	The bush kangaroo
+170	GK	What does a funambulist do?	Tightrope walker
+171	GK	What is the name of Dennis the Menace's dog?	Gnasher
+172	GK	What are bactrians and dromedaries?	Camels
+173	GK	Who played The Fugitive?	David Jason
+174	GK	Who was the King of Swing?	Benny Goodman
+175	GK	Who was the first man to fly across the channel?	Louis Bleriot
+176	GK	Who starred as Rocky Balboa?	Sylvester Stallone
+177	GK	In which war was the charge of the Light Brigade?	Crimean
+178	GK	Who invented the television?	John Logie Baird
+179	GK	Who would use a mashie niblick?	Golfer
+180	GK	In the song who killed Cock Robin?	Sparrow
+181	GK	What do deciduous trees do?	Lose their leaves in winter
+182	GK	In golf what name is given to the No 3 wood?	Spoon
+183	GK	If you has caries who would you consult?	Dentist
+184	GK	What other name is Mellor’s famously known by?	Lady Chatterlys Lover
+185	GK	What did Jack Horner pull from his pie?	Plum
+186	GK	How many feet in a fathom?	Six
+187	GK	which film had song Springtime for Hitler?	The Producers
+188	GK	Name the legless fighter pilot of ww2?	Douglas Bader
+189	GK	What was the name of inn in Treasure Island?	Admiral Benbow
+190	GK	What was Erich Weiss better known as?	Harry Houdini
+191	GK	Who sailed in the Nina - Pinta and Santa Maria?	Christopher Columbus
+192	GK	Which leader died in St Helena?	Napoleon Bonaparte
+193	GK	Who wrote Gone with the Wind?	Margaret Mitchell
+194	GK	What does ring a ring a roses refer to?	The Black Death
+195	GK	Whose nose grew when he told a lie?	Pinocchio
+196	GK	Who has won the most Oscars?	Walt Disney
+197	GK	What would a Scotsman do with a spurtle?	Eat porridge
+198	GK	Which award has the words for valour on it?	Victoria CrossGK	If you had pogonophobia what would you be afraid of?	Beards
+199	GK	Who would take silk as part of their job?	Barrister
+200	GK	Who won an Oscar for the African Queen?	Bogart
+201	GK	Who sang the theme song in 9 to 5?	Dolly Parton
+202	GK	What in business terms is the IMF?	International Monetary Fund
+203	GK	Ringo Star narrates which children's TV series?	Thomas the tank engine
+204	GK	Which country grows the most fruit?	China
+205	GK	Which company is owned by Bill Gates?	Microsoft
+206	GK	What would you do with a maris piper?	Eat it - it’s a potato
+207	GK	In Casablanca what is the name of the nightclub?	Rick's
+208	GK	What was the first James Bond book?	Casino Royale
+209	GK	What kind of animal is a lurcher?	Dog
+210	GK	What is the currency of Austria?	Schilling
+211	GK	What is the Islamic equal to the red cross?	Red Crescent
+212	GK	In fable who sold a cow for five beans?	Jack
+213	GK	How did Alfred Nobel make his money?	He invented Dynamite
+214	GK	Who was the first man to run a sub four minute mile?	Roger Bannister
+215	GK	What are Munroes?	Mountains in Scotland
+216	GK	Which car company makes the Celica?	Toyota
+217	GK	Air Lingus is the national airline of which country?	Republic of Ireland or Eire
+218	GK	Who discovered radium?	The Curies
+219	GK	What does an alopecia sufferer lack?	Hair
+220	GK	Who painted The Haywain?	John Constable
+221	GK	Triskadeccaphobia is the fear of what?	Number 13
+222	GK	What is a baby rabbit called?	Kit or Kitten
+223	GK	Which country had The Dauphin as a ruler?	France
+224	GK	Who did Michael Caine play in the Ipcress File (both names)?	Harry Palmer
+225	GK	Who won Euro song contest Save All Your Kisses For Me?	Brotherhood of Man
+226	GK	Which country had the guns of Naverone installed?	Turkey
+227	GK	Ictheologists study what?	Fish
+228	GK	What is a Winston Churchill?	Cigar
+229	GK	Who or what lives in a formicarium?	Ants
+230	GK	What type of acid is used in car batteries?	Sulphuric
+231	GK	It’s a flock of sheep what's a group of owls called?	Parliament
+232	GK	What animal would you find in a form?	Hare
+233	GK	Who in books and films was the man of bronze?	Doc Savage
+234	GK	Who was Stan Laurels partner?	Oliver Hardy
+235	GK	What kind of food is Cullan Skink?	Fish
+236	GK	What is classified by the A B O system?	Blood Groups
+237	GK	What plant does the Colorado beetle attack?	Potato
+238	GK	Where did the Pied Piper play?	Hamlin
+239	GK	To where in France do the sick make pilgrimages?	Lourdes
+240	GK	In which city was the famous black hole?	Calcutta
+241	GK	Christopher Cockerel invented what?	Hovercraft
+242	GK	Ray Bolger played who in The Wizard of Oz?	Scarecrow
+243	GK	Sabotage is French - What did the saboteurs use?	Shoes
+244	GK	Which part of the human body contains the most gold?	Toenails
+245	GK	If you had rubella what would you have caught?	German Measles
+246	GK	Mohs scale hardest substance is diamond - what's the softest?	Talc
+247	GK	La Giaconda is better known as what?	Mona LisaGK	Who wrote the Opera Madam Butterfly?	Puccini
+248	GK	What links - Goa - Kerula - Assam - Bihar?	India
+249	GK	Eric Arthur Blaire was the real name of which author?	George Orwell
+250	GK	Names - Baker Cook obvious what did Cordwainer do?	Shoemaker
+251	GK	Which country do Sinologists study?	China
+252	GK	Rudy Stevens became famous under which name?	Barbara Stanwyck
+253	GK	Which non alcoholic cordial is made from pomegranates?	Grenadine
+254	GK	What is Orchesis - either professional or amateur?	Art of Dancing
+255	GK	Taken literally what should you see in a Hippodrome?	Horses
+256	GK	Who wrote the Man in the Iron Mask?	Alexander Dumas
+257	GK	Which 1993 Disney film starred Bet Middler as a witch?	Hocus Pocus
+258	GK	Who piloted the first flight across the English channel?	Louis Bleriot
+259	GK	What was the first James Bond film?	Dr No
+260	GK	What 1991 film won best film, actor, actress, director Oscars?	Silence of the Lambs
+261	GK	What was the capital of Ethiopia?	Addis Ababa
+262	GK	Aescapalious emblem staff snake Greek Roman god of what?	Medicine
+263	GK	Giacomo Agostini - 122 Grand Prix 15 world titles what sport?	Motorcycle Racing
+264	GK	What is the largest state in the USA?	Alaska
+265	GK	Led Deighton trilogy Game Set Match What 3 Capitals?	Berlin Mexico London
+266	GK	Alan Stuart Konigsberg famous as who?	Woody Allen
+267	GK	Which human rights organisation founded 1961 got Nobel 1977?	Amnesty International
+268	GK	Whose autobiography was The long walk to Freedom?	Nelson Mandela
+269	GK	What was discovered in 1922 by Howard Carter?	Tutankamen tomb
+270	GK	Clyde Tonbaugh discovered what planet in 1930?	Pluto
+271	GK	Who won the women's heptathlon at Seoul in 1988?	Jackie Joyner-Kersey
+272	GK	Who wrote Northanger Abbey?	Jayne Austin
+273	GK	Who ran through the streets naked crying Eureka?	Archimedes
+274	GK	Who composed the Brandeberg concertos full names?	Johan Sebastian Bach
+275	GK	Who won the World Series in 1987?	Minnesota twins
+276	GK	What is the correct term of address to the Pope?	Your Holiness
+277	GK	In which city was Alexander Graham Bell born in 1847?	Edinburgh
+278	GK	Who composed the ballets Sleeping Beauty and The Nutcracker?	Tchaikovsky
+279	GK	AG Bell opened school in Boston in 1872 for Teachers of what?	The Deaf
+280	GK	Benjamin Kubelsky 1894 fame as what comedian?	Jack Benny
+281	GK	In the Old Testament what book comes between Obadiah - Micah?	Jonah
+282	GK	Robin Williams dressed in drag for which 1993 film?	Mrs Doubtfire
+283	GK	Which chess piece could be a member of the church?	Bishop
+284	GK	Which German word means lightning war used in WW2?	Blitzkrieg
+285	GK	Broccoli belongs to what family of plants?	Cabbage
+286	GK	Who designed the first Iron ship the Great Britain in 1845?	I. Kingdom Brunel
+287	GK	Whose boat Bluebird was recently raised from Coniston water?	Donald Campbell
+288	GK	in 1951 which (of two) car companies introduced power steering?	Buick - Chrysler
+289	GK	Who wrote Catch 22 (both names)?	Joseph Heller
+290	GK	Which country set up the world’s first chemistry lab in 1650?	Netherlands
+291	GK	What links the names Botvinik, Tal, Karpov, Fischer?	Chess World Champs
+292	GK	What is the national flower of Japan?	Chrysanthemum
+293	GK	Bombardier Billy Wells was seen on many Rank films - why?	Hit Gong
+294	GK	Where in France do claret wines come from?	Bordeaux
+295	GK	What did mathematician John Napier invent in 1614?	Logarithms
+296	GK	What was the world’s first high level programming language 1957?	IBM FORTRANGK	Consumption was the former name of which disease?	Tuberculosis
+297	GK	Which American state is nicknamed The Diamond State?	Delaware
+298	GK	What are the Sirocco, Mistral and Chinook?	Winds
+299	GK	Who wrote about Willie Wonka and the Chocolate Factory?	Roald Dahl
+300	GK	Who, at USA customs declared, nothing but my genius?	Oscar Wilde
+301	GK	Issur Danielovitch became famous a who?	Kirk Douglas
+302	GK	Who sailed in the Golden Hind?	Sir Francis Drake
+303	GK	What was the name of the plantation in Gone with the Wind?	Tara
+304	GK	Who won the 1988 Superbowl?	Washington Redskins
+305	GK	Which group believes in The Great Architect of the Universe?	Freemasons
+306	GK	Robert Alan Zimmerman real name of who?	Bob Dylan
+307	GK	Processed Galena produces which metal?	Lead
+308	GK	Who wrote Gulliver’s Travels (both names)?	Jonathon Swift
+309	GK	What is a Ha Ha?	Sunken Fence
+310	GK	In Japan what is Seppuku?	Hari Kari - suicide
+311	GK	Who discovered blood circulation?	William Harvey
+312	GK	The dunnock is another name for which common bird?	Hedge Sparrow
+313	GK	If someone said they were from Hellas - which country?	Greece
+314	GK	Who was the son of Zeus and Maia - Gods Messenger?	Hermes
+315	GK	Roy Scherer jr became famous as who?	Rock Hudson
+316	GK	Who wrote Brave New World (full name)?	Aldus Huxley
+317	GK	What links Calabria, Liguria, Puglia and Veneto?	Regions of Italy
+318	GK	Which city in Rajasthan has riding breeches named after it?	Jodhpur
+319	GK	Portugal has had six Kings with what first name?	John
+320	GK	What martial arts name means gentle way?	Judo
+321	GK	Jean Claude Killy famous in which sport?	Skiing
+322	GK	Kimberlite contains what precious item?	Diamonds
+323	GK	Who directed Dr Strangelove - 2001 - The Shining (full name)?	Stanley Kubrick
+324	GK	Rene Lalique - Art Nouveau designer worked what material?	Glass
+325	GK	Who created the children's land of Narnia and Lion Witch Wardrobe?	Clive Staples Lewis
+326	GK	What animal lives in a drey?	Squirrel
+327	GK	Why is Louise Brown - born 1978 famous?	First test tube baby
+328	GK	The title of whose book translates as my struggle?	Adolf Hitler
+329	GK	Anna Mary Robinson - famous American painter - what name?	Grandma Moses
+330	GK	In which country would you find the Negev desert?	Israel
+331	GK	Which character has been played by the most actors?	Sherlock Holmes
+332	GK	In Greek mythology a Hamadryads spirit guarded what?	Trees
+333	GK	Jocasta was the wife of Laius and the mother of who?	Oedipus
+334	GK	Who wrote The Rights of Man - and The Age of Reason?	Thomas Paine
+335	GK	What is the capital of Sicily?	Palermo
+336	GK	What was invented by Dr Edward Land in 1947?	Polaroid
+337	GK	Syd Barett, Roger Waters, Richard Wright, Nick Mason - Group?	Pink Floyd
+338	GK	Carlo Collodi created which famous children's character?	Pinocchio
+339	GK	What is mainly extracted from pitchblende?	Uranium
+340	GK	Which connects Delft, Sevres, Wedgwood, Chelsea?	Porcelain
+341	GK	Which country introduced the worlds first diesel loco in 1912?	Germany
+342	GK	in 1656 Christian Huygens invented what type of timekeeper?	Pendulum clock
+343	GK	Duvali, Dushira and Holi are religious days in which religion?	Hindu
+344	GK	In what industry did John Davidson Rockefeller get rich?	Oil
+345	GK	The Mau Mau were terrorists in which country late 50s early 60s?	KenyaGK	What is the common name for the star Sirius?	Dog Star
+346	GK	What calculating aid was invented by William Oughtred in 1662?	Slide Rule
+347	GK	Which Athenian philosopher wrote nothing - immortalised by Plato?	Socrates
+348	GK	Who designed the WW 1 plane Camel and co designed Hurricane?	Thomas Octave Murdoch Sopwith
+349	GK	Crazy Horse and Sitting Bull were born in which US state?	South Dakota
+350	GK	In 1666 Jesuit Bark was used as a prevention against what?	Malaria
+351	GK	In 1971 which USA space probe was first to orbit another planet?	Mariner 9
+352	GK	What links Catalonia, Andalusia, Cantabria, Galicia?	Regions of Spain
+353	GK	Ingemar Stenmark won record 85 world cup races in what sport?	Skiing
+354	GK	Who wrote the music for the ballets Firebird and Rites of Spring?	Igor Stravinsky
+355	GK	What common legal item literally means under penalty?	Subpoena
+356	GK	Who was the only person to win world titles on bikes and cars?	John Surtees
+357	GK	What is the oldest swimming stroke?	Breaststroke
+358	GK	Which European country is divided into areas called Cantons?	Switzerland
+359	GK	Which medical tool was developed by Sanctorius in 1612?	Thermometer
+360	GK	What weapon was invented by Ernest Swinton used in 1916?	Tank
+361	GK	Which mythological King chained grapes rose water fell?	Tantalus
+362	GK	Who created Tarzan (all names) in 1914?	Edgar Rice Burroughs
+363	GK	Camellia Sinesis evergreen shrub better known as what?	Tea
+364	GK	In 1901 who first transmitted radio signals across Atlantic?	Marconi
+365	GK	Who won six consecutive Wimbledon titles in the 1980s?	Martina Navratilova
+366	GK	What Italian building material translates as baked earth?	Terracotta
+367	GK	What links Buddy Holly, Lyndon Johnston, Janice Joplin?	State of Texas
+368	GK	Which eponymous character was Thane of Cawder Glaimes?	Macbeth
+369	GK	Who wrote the 39 steps (both names)?	John Buchan
+370	GK	Who won the Superbowl in 1987?	New York Giants
+371	GK	What is the food tofu made from?	Soya Bean Curd via Soya milk
+372	GK	Who was the son of Poseidon and Ampherite?	Triton
+373	GK	Annie Mae Bullock became famous under which name (both)?	Tina Turner
+374	GK	What linked Armenia, Georgia, Latvia and Moldavia?	USSR
+375	GK	What is the state capitol of New Jersey?	Trenton
+376	GK	Who won an Oscar for best supporting actor in Spartacus 1960?	Peter Ustinov
+377	GK	What was invented by James Dewer in 1872?	Vacuum or thermos flask
+378	GK	Who was the Roman goddess of the hearth?	Vesta
+379	GK	Viticulture is the growing of what plants?	Vines
+380	GK	In 1953 what was first successfully transmitted in the USA?	Colour Television
+381	GK	Who wrote the Thin Man in 1934 (both names)?	Dashiell Hammett
+382	GK	Angel falls Venezuela Highest but where second Highest?	Yosemite USA
+383	GK	Whitcome Judson in 1891 invented what for fastening shoes?	Zip Fastener
+384	GK	Who sold Louisiana to the USA in 1803?	Napoleon
+385	GK	Gregory Pincus, John Rock, Gerhart Domangk developed what?	Oral Contraceptive
+386	GK	The Gloucester E 28/39 first flew in 1941 - what was unusual?	Whittle Jet Engine
+387	GK	Women compete between USA and UK in Wightman Cup - Sport?	Tennis
+388	GK	Woolworth's - the 5 /10 cent store started in which us state 1979?	Lancaster Pennsylvania
+389	GK	Which actress starred in the original King Kong in 1933 (both)?	Fay Wray
+390	GK	Except Australia 1 New Zealand 1 USA all since 1870 want??	America's Cup
+391	GK	What's missing from ale that’s included in beer?	Hops
+392	GK	Until 1971 what was the name of Zaire?	Congo
+393	GK	Karl Lienstater discovered which medical breakthrough in 1901?	ABO Blood Groups
+394	GK	Who is the only American president elected unopposed?	George WashingtonGK	What movie cast included James Garner, Richard Attenbourough,Steve McQueen, Charles Bronson, Donald Pleasance, James Coburn, Gordon Jackson, Angus McPhee among many other?	The Great Escape
+395	GK	If you suffer from epistaxis what is wrong?	Nosebleed
+396	GK	In which book would you find the manservant Pas Partout?	Around the world in 80 days
+397	GK	What animals name translates as water horse?	Hippopotamus
+398	GK	In Greek mythology who killed the Gorgon?	Perseus
+399	GK	Which two metals are alloyed to make pewter?	Tin and Lead
+400	GK	In 1899 the Eastman company in the USA produced first what?	Kodak 1 - hand held roll film cam
+401	GK	What links - Sarte, Neitzsche, Russell and Decartes?	Philosophers
+402	GK	In 1643 Evangalisa Torichelli invented the first what?	Barometer
+403	GK	Which Spanish painter has first exhibition at 16 - also 4 year blue?	Pablo Picasso
+404	GK	Where did the mutineers of the Bounty settle?	Pitcairn Islands
+405	GK	What is the longest river in Italy?	Po
+406	GK	What does a polyandric women have more than one of?	Husband
+407	GK	What links Brazil, Uruguay, Mozambique and Angola?	Colonies of Portugal
+408	GK	What is the American equivalent of the Irish Poteen?	Moonshine
+409	GK	Who was the last king of Troy killed by Achilles son Pyrrhus?	Priam
+410	GK	In 1911 the archaeologist Hiram Bingham discovered what lost city?	Machu Picchu
+411	GK	Who won the Superbowl in 1989?	San Francisco 49 ers
+412	GK	Who wrote the book Billy Budd also Moby Dick?	Herman Melville
+413	GK	Which highwayman rode the horse Black Bess?	Dick Turpin
+414	GK	Barry Allen was the alter ego of which DC comic superhero?	The Flash
+415	GK	In 1901 which brand of car was seen for the first time?	Mercedes
+416	GK	Brisbane is the state capital of which SE Australian state?	Queensland
+417	GK	In Norse mythology what is the name of the ultimate battle?	Ragnarok
+418	GK	In 1890 the first electric what opened in London?	Underground railway
+419	GK	Who wrote the children's novel Swallows and Amazons?	Arthur Ransom
+420	GK	Oil seed rape belongs to which plant family?	Mustard
+421	GK	Which Norwegian politicians name became a word for traitor?	Vidkun Quisling
+422	GK	What is the capitol of Morocco?	Rabat
+423	GK	What shape were the sailors plates in Nelsons navy?	Square Thus Square meal
+424	GK	What religion links Weasak, Dhrammacacka, and Bhodi day?	Buddhist
+425	GK	Linus Torwalds invented and wrote what?	Linux computer operating system
+426	GK	The bander macaque has which commoner name?	Rhesus Monkey
+427	GK	Zambia and Zimbabwe used to be called what?	Rhodesia
+428	GK	What is the staple food of one third of the worlds population?	Rice
+429	GK	Paul Robeson the singer of old man river had what profession?	Lawyer
+430	GK	Rene Laennac invented which aid for doctors in 1810?	Stethoscope
+431	GK	Jagger, Richards, Wyman, Jones, Watts, Stewart - which band?	The Rolling Stones
+432	GK	What digit does not exist in Roman Numerals?	Zero
+433	GK	Who was nicknames The desert Fox (both Names)?	Erwin Rommel
+434	GK	What aid to archaeologists from 197 bc was found in Egypt 1799?	Rosetta Stone
+435	GK	Which annual sporting event between 2 teams started in 1829?	The University Boat Race
+436	GK	Who was the jeweller to the Russian Court famous Easter eggs?	Faberge
+437	GK	What type of food is Taramasalata?	Cured /smoked cod roe
+438	GK	What links Samuel Delaney, Fredrick Pohl, Harlan Ellison?	Science Fiction
+439	GK	Randolph Crane became famous as which cowboy actor?	Randolph Scott
+440	GK	Ageusia is the loss of which sense?	Taste
+441	GK	Which Irish political parties name translates as we ourselves?	Sein Fein
+442	GK	Henry Ford used assembly line in 1908 but someone before 1901?	Ransome Olds
+443	GK	Who performed the first heart transplant in South Africa?	Christian BarnardGK	Which countries men use the most deodorant?	Japan
+444	GK	Who played Billy the Kid in The Left Handed Gun?	Paul Newman
+445	GK	What was the first credit card?	Diners Club
+446	GK	What links Humphry Davie, Michael Faraday, Madam Curie?	Poisoned by chemicals work
+447	GK	Hippophagic society members support what?	Eating horsemeat
+448	GK	What did Britain swap Havana for with Spain in 1763?	Florida
+449	GK	What is the crime of embracery?	Jury Bribing
+450	GK	Which country made the worlds first feature film in 1906?	Australia Story of Kelly gang
+451	GK	Who wrote Gentlemen Prefer Blonds?	Anita Loos
+452	GK	What was Norman Bates hobby in Psycho?	Stuffing birds
+453	GK	What was Casanovas day job?	Librarian
+454	GK	Where is the worlds largest gold depository?	Federal reserve bank Manhattan
+455	GK	Why did the state of Indiana ban Robin Hood in 1953?	Communist rob rich
+456	GK	Angelo Scicilano better know as who?	Charles Atlas
+457	GK	How did George II die?	Fell off toilet
+458	GK	What did Marlon Brando and George C Scott refuse?	Oscars
+459	GK	Why was convict 2599 unusual in Pen State prison 1924?	Dog doing life for killing cat
+460	GK	What is 6 inches bigger in Summer?	Eiffel tower
+461	GK	What two ingredients make the dish angels on horseback?	Oysters wrapped in Bacon
+462	GK	What was Charles Dickens last (unfinished) novel?	Mystery of Edwin Drood
+463	GK	Which sea on Earth has no beaches?	Sargasso sea
+464	GK	Reuben Tice died trying to invent a machine to do what?	Dewrinkle prunes
+465	GK	De Witt Wallace founded what?	Readers Digest
+466	GK	Who is the Patron Saint of thieves?	St Nicholas
+467	GK	According to his business card what job did Al Capone do?	Sell second hand furniture
+468	GK	Humans are 10,000 times more sexually active that what animal?	Rabbits
+469	GK	Shirley Schrift became famous as which actress?	Shelly Winters
+470	GK	In Kansas what can a waiter not do in a teacup (legally)?	Serve wine
+471	GK	Which country has the smallest birth rate?	Vatican City
+472	GK	Which 1956 film caused riots in cinemas?	Rock around the clock
+473	GK	Who did the USA buy the Virgin islands from?	Denmark
+474	GK	Who played the scarecrow in the Wiz (all black wiz of oz)?	Michael Jackson
+475	GK	What was or is a Waltzing Mathilda?	Swagman’s Knapsack
+476	GK	Which country was the first to introduce old age pensions?	Germany
+477	GK	Which hats became popular with children in 1956?	Davy Crocket
+478	GK	Malden Serkiovitch famous as which actor?	Karl Malden
+479	GK	What is it illegal to pawn in New York?	American flag
+480	GK	What hospital did Dr Kildare work at?	Blaire General
+481	GK	Collective nouns - a smuck of what?	Jellyfish
+482	GK	Who was Cleopatra's first husband?	Ptolemy Dionysus
+483	GK	Who was John Dawkins better known as?	Artful Dodger
+484	GK	Which film star has his statue in Leicester Square?	Charlie Chaplin
+485	GK	Virginia McMath became famous as which actress?	Ginger Rodgers
+486	GK	What is the name of Captain Ahab's ship?	Peaquod
+487	GK	Roosevelt won the 1932 election - who lost it?	Herbert Hoover
+488	GK	Who wrote The History of Mr Polly?	H G Wells
+489	GK	What is the first day of Lent?	Ash Wednesday
+490	GK	Mr Chips said goodbye - from which fictional school?	Brookfield
+491	GK	Who buried the treasure on Treasure Island?	Captain Flint
+492	GK	Which TV series was narrated by Walter Winchell?	The UntouchablesGK	In which country was Auschwitz	Poland
+493	GK	What was the first British instrumental to top the USA charts	Telstar by The Tornados
+494	GK	On which national flag is there an eagle and a snake	Mexico
+495	GK	What group of animals would be in a clowder	Cats
+496	GK	What is a Sam Browne	Military belt
+497	GK	What is the chemical symbol for tungsten	W
+498	GK	Who are the two most translated English writers	Shakespeare and Agatha Christie
+499	GK	Citius Altius Fortius is the motto of what organisation	Olympic
+500	GK	What is the main ingredient of sauce Lyonnaise	Onions
+501	GK	Who played Miss Marple in 6 films (both names)	Margaret Rutherford
+502	GK	From what language does the word alphabet come	Greek -alpha beta
+503	GK	In the nursery rhyme what is Fridays child	Loving and Giving
+504	GK	What was the first film made in cinemascope	The robe
+505	GK	Where was the battle of Hastings fought	Senlac hill
+506	GK	A pearmain is what type of fruit	Apple
+507	GK	What colour is the bull on an archery target	Gold
+508	GK	What was the Rolling Stones first no 1 hit	Its all over now
+509	GK	Name both rival gangs in West Side Story	Sharks Jets
+510	GK	In golf what do the Americans call an albatross	Double Eagle
+511	GK	Which classical composer wrote the Hungarian Rhapsody	Franz Liszt
+512	GK	When is St Swithens day	15th July
+513	GK	What are ceps morels and chantrelles	Mushrooms
+514	GK	Which part of his body did Charlie Chaplin insure	Feet
+515	GK	In golf what would you put in your shag bag	Practice Balls
+516	GK	A bind is a group of what type of fish	Salmon
+517	GK	Which author created Fu Manchu	Sax Rohmer
+518	GK	Mrs Darell Waters (translated 128 languages) pen name	Edith Blyton
+519	GK	Who played the pawnbroker in the film of that name	Rod Stiger
+520	GK	What was the first manufactured item to be sold on Hire Purchase	Singer sewing machine
+521	GK	Which letters denote Jesus Nazareth King of the Jews	INRI
+522	GK	In France if you were served le miel what would you eat	Honey
+523	GK	The Greek for circle of animals gives it name to what	Zodiac
+524	GK	Who was the Roman god of agriculture	Saturn
+525	GK	What is ikebana	Flower arranging
+526	GK	What nationality was Morse inventor of the famous code	American
+527	GK	Goa used to be a colony of which nation	Portugal
+528	GK	What does a galactophagist drink	Milk
+529	GK	What did God create on the fifth day (both)	Sea creatures and birds
+530	GK	Where was Bob Dylan born	Duluth Minnesota
+531	GK	In the 18th century what would a pencil be	Brush
+532	GK	Agrippa poisoned her husband/uncle who was he	Claudius
+533	GK	Who was the mother of Castor and Pollux	Helen of Troy
+534	GK	What are the snaffle Pelham and Weymouth	Horse bits
+535	GK	Walter Koenig played which part in the Star Trek series	Ensign Chekov
+536	GK	Who had a hit with Devil Woman	Cliff Richard
+537	GK	What were the first false teeth made from	Ivory
+538	GK	The jealous Athena turned who into a spider	Arachne
+539	GK	What was the first Carry On film	Carry on Sergeant
+540	GK	Who was the female lead in The Shootist	Lauren Bacall
+541	GK	What is a dzo	Cow Yak crossGK	Hypermetropic people are what	Long Sighted
+542	GK	Which leader lives in the Potola	Dalai Lama
+543	GK	What wood was the cross supposed to be made of	Mistletoe
+544	GK	Joseph Levitch became famous as who	Jerry Lewis
+545	GK	If you planted a bandarilla what are you doing	Bullfighting
+546	GK	What was the first Pink Floyd album	Piper at the gates of dawn
+547	GK	in which city was the first public opera house opened	Venice
+548	GK	In what Elvis film did he play a double role	Kissing Cousins
+549	GK	The Aphrodite of Melos has a more famous name - what	Venus de Milo
+550	GK	Which country invented the concentration camp	Britain - Boer war
+551	GK	John Huston scored a hit with his first film - what?	Maltese falcon
+552	GK	Stan laurel, Mickey Rooney, Lana Turner what in common	8 marriages
+553	GK	What real person has been played most often in films	Napoleon Bonaparte
+554	GK	Scotopic people can do what	See in the dark
+555	GK	What is the most critical thing keeping bananas fresh transport	Temperature not below 13 C
+556	GK	What is the name of the Paris stock exchange	Bourse
+557	GK	Whose music featured in The Clockwork Orange	Beethoven
+558	GK	What was the Troggs most famous hit	Wild Thing
+559	GK	In Japan what colour car is reserved for the royal family only	Maroon
+560	GK	What city has Kogoshima as its airport	Tokyo
+561	GK	What was gangsters George Nelsons nickname	Baby Face
+562	GK	Whose first wife was actress Jayne Wyman	Ronald Regan
+563	GK	In MASH what is Radars favourite drink	Grape Knee High
+564	GK	What do you give on the third wedding anniversary	Leather
+565	GK	What is a baby whale called	Calf
+566	GK	In which film did the Rolls Royce have the number plate AU1	Goldfinger
+567	GK	Vladamere Ashkenazy plays what musical instrument	Piano
+568	GK	With which organ does a snake hear	Tongue
+569	GK	On what is the Mona Lisa painted	Wood
+570	GK	What is the second most common international crime	Art theft
+571	GK	Count de Grisly was the first to perform what trick in 1799	Saw woman in half
+572	GK	Who wrote Les Miserable	Victor Hugo
+573	GK	Which bird turns it head upside down to eat	Flamingo
+574	GK	The colossus of Rhodes was a statue of who	Apollo
+575	GK	Who rode a horse called Bucephalus	Alexander the Great
+576	GK	To which London club did Mycroft Holmes belong	Diogones
+577	GK	What did William Addis invent in prison	Toothbrush
+578	GK	What is the only duty of police Gracthenvissers in Amsterdam	Motorists in canals
+579	GK	Kleenex tissues were originally intended as what in 1915	WW1 Gas mask filters
+580	GK	Who invented popcorn	American Indians
+581	GK	What is the colour of mourning in Turkey	Violet
+582	GK	For what is spirits of salt another name	Hydrochloric acid
+583	GK	Which game is played on an oval with 18 player per team	Australian football
+584	GK	In the Winnie the Pooh stories what is Kanga’s baby called	Roo
+585	GK	Which actor is common to Magnificent 7 and Dirty Dozen	Charles Bronson
+586	GK	Who saved Andromeda from the sea monster	Perseus
+587	GK	What flower is the symbol of secrecy	Rose
+588	GK	What item were originally called Hanways	Umbrellas
+589	GK	What is Brussels best known statue	The Mannequin Pis
+590	GK	in which language does God Jul mean happy Xmas	SwedishMOVIE_TRIVIA 	 What was the title of the film that Whitney Houston starred in alongside Kevin Costner 	 The Bodyguard
+591	MOVIE_TRIVIA 	 Who plays the bride to be Sophie in the film 2008 film 'Mamma Mia' 	 Amanda Seyfried
+592	MOVIE_TRIVIA 	 Who starred as the Tarzan in the first movie 	 Elmo Lincoln
+593	MOVIE_TRIVIA 	 Which two famous film stars played the leading roles in the film 'Pretty Woman' 	 Richard Gere and Julia Roberts
+594	MOVIE_TRIVIA 	 What was the name of Dorothy's dog in the Wizard of Oz 	 Toto
+595	MOVIE_TRIVIA 	 Who played Jack in the film The Titanic 	 Leonardo DiCaprio
+596	MOVIE_TRIVIA 	 What was the title of the film that Robin Williams played an English teacher called John Keating 	 Dead Poets Society
+597	MOVIE_TRIVIA 	 Who played Forrest Gump 	 Tom Hanks
+598	MOVIE_TRIVIA 	 Which Disney film does the song 'Circle of Life' come from 	 The Lion King
+599	MOVIE_TRIVIA 	 Who made the quote 'I'll be back' famous 	 Arnold schwarzenegger
+600	MOVIE_TRIVIA 	 Which Disney film does the song 'The Bare Necessities' come from 	 The Jungle Book
+601	MOVIE_TRIVIA 	 Who starred as Sandy in the first Grease movie 	 Olivia Newton-John
+602	MOVIE_TRIVIA 	 What was the title of the film that starred Elvis Presley playing the role of a boxer 	 Kid Galahad
+603	MOVIE_TRIVIA 	 What was the name of Chucky's Bride in the 1998 film entitled 'The Bride of Chucky' 	 Tiffany
+604	MOVIE_TRIVIA 	 In which film did Jodie Foster play the role of Clarice Starling, an FBI agent 	 The Silence of the Lambs
+605	MOVIE_QUOTES 	 Here's looking at you, kid 	 Casablanca
+606	MOVIE_QUOTES 	 There's no place like home 	 The Wizard of Oz
+607	MOVIE_QUOTES 	 I see dead people 	 Sixth Sense
+608	MOVIE_QUOTES 	 At my signal, unleash hell 	 Gladiator
+609	MOVIE_QUOTES 	 You're going out a youngster but you've got to come back a star 	 42nd Street
+610	MOVIE_QUOTES 	 Houston, we have a problem 	 Apollo 13
+611	MOVIE_QUOTES 	 My understanding of women goes only as far as the pleasures 	 Alfie
+612	MOVIE_QUOTES 	 Every man dies. Not every man really lives 	 Braveheart
+613	MOVIE_QUOTES 	 Yo, Adrienne! 	 Rocky
+614	MOVIE_QUOTES 	 We're bigger than US Steel 	 The Godfather
+615	MOVIE_QUOTES 	 Poor Catherine, tick, tock, tick, tock, tick, tock 	 The Silence of the Lambs
+616	MOVIE_QUOTES 	 To deny our own impulses is to deny the very thing that makes us human 	 The Matrix
+617	MOVIE_QUOTES 	 Truth hurts. Maybe not as much as jumping on a bicycle with a seat missing, but it hurts 	 Naked Gun 2 1/2
+618	MOVIE_QUOTES 	 I once heard a wise man say: There are no perfect men, only perfect intentions 	 Robin Hood – Prince of Thieves
+619	MOVIE_QUOTES 	 Life moves pretty fast. If you don't stop and look around once in a while, you could miss it 	 Ferris Bueler's Day Off
+620	MOVIE_QUOTES 	 Nobody puts Baby in the corner 	 Dirty Dancing
+621	MOVIE_QUOTES 	 Tell her that you love her. You've got nothing to lose, and you'll always regret it if you don't 	 Love Actually
+622	MOVIE_QUOTES 	 The greatest thing you'll ever learn is just to love and have that love returned 	 Moulin Rouge
+623	MOVIE_QUOTES 	 You had me at hello 	 Jerry Maguire
+624	MOVIE_QUOTES 	 Love means never having to say you're sorry 	 Love Story
+625	MOVIE_QUOTES 	 I'm just a girl standing in front of a boy, asking him to love her 	 Notting Hill
+626	MOVIE_QUOTES 	 I need to believe, that something extraordinary possible 	 A Beautiful Mind
+627	MOVIE_QUOTES 	 Poetry, beauty, romance, love: these are what we stay alive for 	 Dead Poet's Society
+628	MOVIE_QUOTES 	 I may not be a smart man, but I know what love is 	 Forrest Gump
+629	MOVIE_QUOTES 	 Sometimes I wish I had never met you. Because then I could go sleep at night not knowing there was someone like you out there 	 Good Will Hunting
+630	MOVIE_QUOTES 	 Everything I do, I do it for you. Anything that might be special in me... is you 	 Great Expectations
+631	MOVIE_QUOTES 	 When you realize you want to spend the rest of your life with somebody, you want the rest of your life to start as soon as possible 	 When Harrry Met Sally
+632	MOVIE_QUOTES 	 Coughlin's law: never show surprise, never lose your cool 	 Cocktail
+633	MOVIE_QUOTES 	 Take love, multiply it by infinity and take it to the depths of forever... and you still have only a glimpse of how I feel for you 	 Meet Joe Black
+634	MOVIE_QUOTES 	 If I had one more night to live, I would want to spend it with you 	 Pearl Harbour
+635	MOVIE_QUOTES 	 All of this has happened before, and it will all happen again 	 Peter Pan
+636	MOVIE_QUOTES 	 Look, you're really cute, but I can't understand what you're saying 	 Finding Nemo
+637	MOVIE_QUOTES 	 A lie keeps growing and growing until it's as plain as the nose on your face 	 Pinocchio
+638	MOVIE_QUOTES 	 Sounds like someone's sick. How lovely. I do hope it's serious. Something dreadful 	 The Sword and the Stone
+639	MOVIE_QUOTES 	 Ladies don't start fights, but they can finish them 	 The Aristocats
+640	MOVIE_QUOTES 	 Forever is a long long time and time has a way of changing things 	 Fox and the Hound
+641	MOVIE_QUOTES 	 Will you get your head out of the clouds and back in the water where it belongs 	 The Little Mermaid
+642	MOVIE_QUOTES 	 What do you want me to do, dress in drag and do the hula 	 The Lion King
+643	MOVIE_QUOTES 	 Better to beg forgiveness than ask permission 	 The Hunchback of Notre Dame
+644	MOVIE_QUOTES 	 When I'm with you, I don't feel so alone 	 Hercules
+645	MOVIE_QUOTES 	 Look for the bare necessities 	 The Jungle Book
+646	MOVIE_QUOTES 	 Dreams can come true 	 Cinderella
+647	MOVIE_QUOTES 	 Reach for the sky! 	 Toy Story
+648	MOVIE_QUOTES 	 I'm not worthless and I don't have fleas 	 Aladdin
+649	MOVIE_QUOTES 	 Nothing's impossible 	 Alice In Wonderland
+650	MOVIE_TRIVIA 	 What is the film title of the sequel to Alice In Wonderland 	 Through The Looking Glass
+651	MOVIE_TRIVIA 	 Who played Baby in the film Dirty Dancing 	 Jennifer Grey
+652	MOVIE_TRIVIA 	 Which famous actress was born Norma Jeane Mortenson 	 Marilyn Monroe
+653	MOVIE_TRIVIA 	 Who played James Bond in 'Live and Let Die' 	 Roger Moore
+654	MOVIE_TRIVIA 	 Who am I I was born in 1962, in New York. I'm a Hollywood actor and I've starred in lot of big hit movies. I have also directed films. I'm married to an actress and I have been married twice before. One of my ex-wives is Nicole Kidman. 	 Tom Cruise
+655	MOVIE_TRIVIA 	 How many 'Rocky' films did Sylvester Stallone star in 	 Six (6)
+656	MOVIE_TRIVIA 	 What are the names of Snow White's seven dwarfs 	 Sneezy, Happy, Grumpy, Sleepy, Bashful, Dopey, Doc
+657	MOVIE_TRIVIA 	 What was the name of the boy in the Jungle Book 	 Mowgli
+658	MOVIE_TRIVIA 	 In the film 'Shrek', what is the name of Shrek's wife 	 Fiona
+659	MOVIE_TRIVIA 	 What is the name of the film that Phil Collins starred in with Julie Walters in 1988 	 Buster
+660	MOVIE_TRIVIA 	 Which James Bond film was named after Ian Fleming's home in Jamaica 	 Goldeneye
+661	MOVIE_TRIVIA 	 What is the name of the actor who played the role of Harry Potter in the film series 	 Daniel Radcliffe
+662	MOVIE_TRIVIA 	 What color lipstick did silent movie stars wear 	 Black
+663	MOVIE_TRIVIA 	 In the 1989 film 'Shirley Valentine' who playedthe role of Shirley 	 Pauline Collins
+664	MOVIE_TRIVIA 	 Which Bond movie did Daniel Craig first star in 	 Casino Royale
+665	FAMOUS_POEMS	Phenomenal Woman	Maya Angelou
+666	FAMOUS_POEMS	Where the Sidewalk Ends	Shel Silverstein
+667	FAMOUS_POEMS	If You Forget Me	Pablo Neruda
+668	FAMOUS_POEMS	I carry your heart with me	E. E. Cummings
+669	FAMOUS_POEMS	The Road Not Taken	Robert Frost
+670	FAMOUS_POEMS	A Dream Within A Dream	Edgar Allan Poe
+671	FAMOUS_POEMS	There is another sky	Emily Dickinson
+672	FAMOUS_POEMS	Life Is Fine	Langston Hughes
+673	FAMOUS_POEMS	A Girl	Ezra Pound
+674	FAMOUS_POEMS	Messy Room	Shel Silverstein
+675	FAMOUS_POEMS	To My Wife - With A Copy Of My Poems	Oscar Wilde
+676	FAMOUS_POEMS	Still I Rise	Maya Angelou
+677	FAMOUS_POEMS	Let America Be America Again	Langston Hughes
+678	FAMOUS_POEMS	To You	Walt Whitman
+679	FAMOUS_POEMS	Stopping by Woods on a Snowy Evening	Robert Frost
+680	FAMOUS_POEMS	I Wandered Lonely as a Cloud	William Wordsworth
+681	FAMOUS_POEMS	The New Poetry Handbook	Mark Strand
+682	FAMOUS_POEMS	Funeral Blues	W. H. Auden
+683	FAMOUS_POEMS	Touched by An Angel	Maya Angelou
+684	FAMOUS_POEMS	The Raven	Edgar Allan Poe
+685	FAMOUS_POEMS	Do Not Go Gentle Into That Good Night	Dylan Thomas
+686	FAMOUS_POEMS	A Word to Husbands	Ogden Nash
+687	FAMOUS_POEMS	Bear In There	Shel Silverstein
+688	FAMOUS_POEMS	If those I loved were lost	Emily Dickinson
+689	FAMOUS_POEMS	Romance	Edgar Allan Poe
+690	FAMOUS_POEMS	Seeker Of Truth	E. E. Cummings
+691	FAMOUS_POEMS	I Taught Myself To Live Simply	Anna Akhmatova
+692	FAMOUS_POEMS	Walking Around	Pablo Neruda
+693	FAMOUS_POEMS	Digging	Seamus Heaney
+694	FAMOUS_POEMS	Brown Penny	William Butler Yeats
+695	FAMOUS_POEMS	The Broken Heart	William Barnes
+696	FAMOUS_POEMS	A Birthday Poem	Ted Kooser
+697	FAMOUS_POEMS	The Mother	Gwendolyn Brooks
+698	FAMOUS_POEMS	A Life	Sylvia Plath
+699	FAMOUS_POEMS	As Soon as Fred Gets Out of Bed	Jack Prelutsky
+700	FAMOUS_POEMS	I'm not Yours	Sara Teasdale
+701	FAMOUS_POEMS	And The Moon And The Stars And The World	Charles Bukowski
+702	FAMOUS_POEMS	America	Allen Ginsberg
+703	FAMOUS_POEMS	Those Winter Sundays	Robert Hayden
+704	FAMOUS_POEMS	All the World's a Stage	William Shakespeare
+705	FAMOUS_POEMS	A Poison Tree	William Blake
+706	FAMOUS_POEMS	Daddy	Sylvia Plath
+707	FAMOUS_POEMS	Be Glad Your Nose is on Your Face	Jack Prelutsky
+708	FAMOUS_POEMS	O Captain! My Captain!	Walt Whitman
+709	FAMOUS_POEMS	A Red, Red Rose	Robert Burns
+710	FAMOUS_POEMS	I know why the caged bird sings	Maya Angelou
+711	FAMOUS_POEMS	Fast rode the knight	Stephen Crane
+712	FAMOUS_POEMS	Happiness	Raymond Carver
+713	FAMOUS_POEMS	A Pretty a Day	E. E. Cummings
+714	FAMOUS_POEMS	Dream Deferred	Langston Hughes
+715	UNSCRAMBLE	stoetnpr	portents
+716	UNSCRAMBLE	mbelar	marble
+717	UNSCRAMBLE	sgrbnioid	disrobing
+718	UNSCRAMBLE	ueropenh	hereupon
+719	UNSCRAMBLE	ngninuidw	unwinding
+720	UNSCRAMBLE	ropsolomo	poolrooms
+721	UNSCRAMBLE	entylsuptroo	portentously
+722	UNSCRAMBLE	besuglr	burgles
+723	UNSCRAMBLE	lebed	bleed
+724	UNSCRAMBLE	coiairtnmse	creationism
+725	UNSCRAMBLE	natidmasetc	admittances
+726	UNSCRAMBLE	ortegsau	outrages
+727	UNSCRAMBLE	engeomihse	hegemonies
+728	UNSCRAMBLE	iftnly	flinty
+729	UNSCRAMBLE	iylltfuboun	bountifully
+730	UNSCRAMBLE	rnrtopcgaiion	incorporating
+731	UNSCRAMBLE	mhese	hemes
+732	UNSCRAMBLE	cncutimpnoo	compunction
+733	UNSCRAMBLE	irianeoevtp	inoperative
+734	UNSCRAMBLE	bloas	bolas
+735	UNSCRAMBLE	oaihbpgrbliy	bibliography
+736	UNSCRAMBLE	arely	layer
+737	UNSCRAMBLE	auatihsbet	habituates
+738	UNSCRAMBLE	oegr	goer
+739	UNSCRAMBLE	eotadrl	leotard
+740	UNSCRAMBLE	trimssica	scimitars
+741	UNSCRAMBLE	euralstiovn	voluntaries
+742	UNSCRAMBLE	siictub	biscuit
+743	UNSCRAMBLE	ctmupeod	computed
+744	UNSCRAMBLE	dalilotmnosa	amontillados
+745	UNSCRAMBLE	ncxetai	inexact
+746	UNSCRAMBLE	eertekesrsop	storekeepers
+747	UNSCRAMBLE	stdosytehlgihr	shortsightedly
+748	UNSCRAMBLE	gadfef	gaffed
+749	UNSCRAMBLE	llpckao	pollack
+750	UNSCRAMBLE	raesgdat	gradates
+751	UNSCRAMBLE	gninse	ensign
+752	UNSCRAMBLE	undsedrrou	surrounded
+753	UNSCRAMBLE	kacpscikel	placekicks
+754	UNSCRAMBLE	mtiiezrladaniito	demilitarization
+755	UNSCRAMBLE	ptnatsieh	pantheist
+756	UNSCRAMBLE	sllnsei	illness
+757	UNSCRAMBLE	aiceetrv	creative
+758	UNSCRAMBLE	tlosb	bolts
+759	UNSCRAMBLE	lgshtai	alights
+760	UNSCRAMBLE	lgnngaci	clanging
+761	UNSCRAMBLE	yesko	yokes
+762	UNSCRAMBLE	citrames	matrices
+763	UNSCRAMBLE	hfipmurs	frumpish
+764	UNSCRAMBLE	ethrnc	trench
+765	UNSCRAMBLE	sailtatbsun	substantial
+766	UNSCRAMBLE	pohrssetis	prosthesis
+767	UNSCRAMBLE	sigomeculios	musicologies
+768	UNSCRAMBLE	legateyorlcmi	geometrically
+769	UNSCRAMBLE	ianrzast	tzarinas
+770	UNSCRAMBLE	usaspsmh	smashups
+771	UNSCRAMBLE	bslheiyra	bearishly
+772	UNSCRAMBLE	sivaer	varies
+773	UNSCRAMBLE	lsnsyeeltu	tunelessly
+774	UNSCRAMBLE	secrpil	splicer
+775	UNSCRAMBLE	tielinsg	lignites
+776	UNSCRAMBLE	bdewlloi	billowed
+777	UNSCRAMBLE	dganucitr	traducing
+778	UNSCRAMBLE	tnslsoaobdi	bloodstains
+779	UNSCRAMBLE	esulmgg	smuggle
+780	UNSCRAMBLE	oikmneesssr	irksomeness
+781	UNSCRAMBLE	aitsree	aeriest
+782	UNSCRAMBLE	eodngl	dongle
+783	UNSCRAMBLE	tcaisreklc	crackliest
+784	UNSCRAMBLE	ctutkhobo	bucktooth
+785	UNSCRAMBLE	ahsewniadc	chainsawed
+786	UNSCRAMBLE	tpepaetrre	perpetrate
+787	UNSCRAMBLE	ehloivdlsoi	livelihoods
+788	UNSCRAMBLE	altadievd	validated
+789	UNSCRAMBLE	ncijtticvnoisu	conjunctivitis
+790	UNSCRAMBLE	fapl	flap
+791	UNSCRAMBLE	lcsiav	cavils
+792	UNSCRAMBLE	inteecivn	incentive
+793	UNSCRAMBLE	talmmebcie	emblematic
+794	UNSCRAMBLE	smeyuizgr	zymurgies
+795	UNSCRAMBLE	ihbanrilotsaeti	rehabilitations
+796	UNSCRAMBLE	ooaccstb	tobaccos
+797	UNSCRAMBLE	ecrthac	catcher
+798	UNSCRAMBLE	oitcsng	costing
+799	UNSCRAMBLE	elsrcefk	freckles
+800	UNSCRAMBLE	ragbel	garble
+801	UNSCRAMBLE	eenadhrce	adherence
+802	UNSCRAMBLE	toauircjdy	judicatory
+803	UNSCRAMBLE	isaemantneotdc	decontaminates
+804	UNSCRAMBLE	sdiegecan	deceasing
+805	UNSCRAMBLE	laed	lead
+806	UNSCRAMBLE	naiilpsvoor	provisional
+807	UNSCRAMBLE	eenpsnreo	neoprenes
+808	UNSCRAMBLE	cnhoc	conch
+809	UNSCRAMBLE	cbsiltails	ballistics
+810	UNSCRAMBLE	aruisiartc	urticarias
+811	UNSCRAMBLE	enistaoetdmin	sedimentation
+812	UNSCRAMBLE	clliugn	culling
+813	UNSCRAMBLE	aoirgtmni	migration
+814	UNSCRAMBLE	nvsneeiiscttisd	distinctiveness
+815	UNSCRAMBLE	eripapre	paperier
+816	UNSCRAMBLE	hfsinuseefs	huffinesses
+817	UNSCRAMBLE	gtontonfure	unforgotten
+818	UNSCRAMBLE	hhilsle	hellish
+819	UNSCRAMBLE	usnyaloeus	nauseously
+820	UNSCRAMBLE	mlisb	limbs
+821	UNSCRAMBLE	gduneirtknas	undertakings
+822	UNSCRAMBLE	ifmaenlut	fulminate
+823	UNSCRAMBLE	oatusty	outstay
+824	UNSCRAMBLE	dlunocgsoiri	discolouring
+825	UNSCRAMBLE	eicsrk	sicker
+826	UNSCRAMBLE	neisnemtatssrdeov	demonstrativeness
+827	UNSCRAMBLE	ditseugp	pudgiest
+828	UNSCRAMBLE	lezdzris	drizzles
+829	UNSCRAMBLE	iaevrasi	aviaries
+830	UNSCRAMBLE	nglmai	laming
+831	UNSCRAMBLE	midtevasne	advisement
+832	UNSCRAMBLE	nigstisnfiaoci	significations
+833	UNSCRAMBLE	rensi	resin
+834	UNSCRAMBLE	oetrolpwf	flowerpot
+835	UNSCRAMBLE	ecbcuarln	carbuncle
+836	UNSCRAMBLE	sodrnuow	wondrous
+837	UNSCRAMBLE	noioles	loonies
+838	UNSCRAMBLE	iotslisotxcog	toxicologists
+839	UNSCRAMBLE	aeecfedt	defecate
+840	UNSCRAMBLE	deapupnc	uncapped
+841	UNSCRAMBLE	mpdaonrteil	trampolined
+842	UNSCRAMBLE	ilfnoshsiptg	shopliftings
+843	UNSCRAMBLE	ablbs	blabs
+844	UNSCRAMBLE	pisicixndeneee	inexpediencies
+845	UNSCRAMBLE	suseibb	busbies
+846	UNSCRAMBLE	geuza	gauze
+847	UNSCRAMBLE	oossmisotclg	cosmologists
+848	UNSCRAMBLE	bhniitozyrdai	hybridization
+849	UNSCRAMBLE	etnegnirvin	reinventing
+850	UNSCRAMBLE	dmoe	mode
+851	UNSCRAMBLE	uugcpoidornt	outproducing
+852	UNSCRAMBLE	illdsriet	distiller
+853	UNSCRAMBLE	ustweotrshen	southwestern
+854	UNSCRAMBLE	gdoos	goods
+855	UNSCRAMBLE	eiclhcd	cliched
+856	UNSCRAMBLE	plypu	pulpy
+857	UNSCRAMBLE	tbzruoauicnaitasre	bureaucratizations
+858	UNSCRAMBLE	fedisl	fields
+859	UNSCRAMBLE	otlnevrdiiap	providential
+860	UNSCRAMBLE	iaplnyt	inaptly
+861	UNSCRAMBLE	sfigefei	effigies
+862	UNSCRAMBLE	lalitapa	palatial
+863	UNSCRAMBLE	attspoesa	apostates
+864	UNSCRAMBLE	ieroupmu	europium
+865	UNSCRAMBLE	ceoegul	eclogue
+866	UNSCRAMBLE	below	below
+867	UNSCRAMBLE	misgumnoioel	immunologies
+868	UNSCRAMBLE	gsetnnais	assenting
+869	UNSCRAMBLE	magtentri	mattering
+870	UNSCRAMBLE	falco	focal
+871	UNSCRAMBLE	efdtrsore	defroster
+872	UNSCRAMBLE	glocoye	ecology
+873	UNSCRAMBLE	udpssit	stupids
+874	UNSCRAMBLE	lsbreeil	libelers
+875	UNSCRAMBLE	lnrisicienedb	indiscernible
+876	UNSCRAMBLE	iasblnlhci	chilblains
+877	UNSCRAMBLE	onricsce	conciser
+878	UNSCRAMBLE	iaiyjlucrdl	juridically
+879	UNSCRAMBLE	ulihnkg	hulking
+880	UNSCRAMBLE	gacsrliu	surgical
+881	UNSCRAMBLE	ginz	zing
+882	UNSCRAMBLE	lbsonedee	nosebleed
+883	UNSCRAMBLE	eitcisruibl	lubricities
+884	UNSCRAMBLE	paiaptt	pitapat
+885	UNSCRAMBLE	scnrodo	condors
+886	UNSCRAMBLE	eictesonr	resection
+887	UNSCRAMBLE	olrtpeiatra	proletariat
+888	UNSCRAMBLE	ereuv	revue
+889	UNSCRAMBLE	oflerfsest	effortless
+890	UNSCRAMBLE	urnqiudglap	quadrupling
+891	UNSCRAMBLE	ralka	kraal
+892	UNSCRAMBLE	rvedsviu	survived
+893	UNSCRAMBLE	vsoisraufd	disfavours
+894	UNSCRAMBLE	casbakperp	paperbacks
+895	UNSCRAMBLE	ruedhls	hurdles
+896	UNSCRAMBLE	rrigehpannes	resharpening
+897	UNSCRAMBLE	irsesf	serifs
+898	UNSCRAMBLE	orshntg	throngs
+899	UNSCRAMBLE	eyseailpcuvlt	speculatively
+900	UNSCRAMBLE	ytuuilmat	mutuality
+901	UNSCRAMBLE	phbieon	hipbone
+902	UNSCRAMBLE	smaaicenignl	malignancies
+903	UNSCRAMBLE	oasrswdahb	washboards
+904	UNSCRAMBLE	gitsihlhsp	lightships
+905	UNSCRAMBLE	emzicerrde	mercerized
+906	UNSCRAMBLE	ivasiintton	invitations
+907	UNSCRAMBLE	cerrota	reactor
+908	UNSCRAMBLE	sdiehmshko	sheikhdoms
+909	UNSCRAMBLE	ncdivetaca	vaccinated
+910	UNSCRAMBLE	kikidns	kidskin
+911	UNSCRAMBLE	rdbedgi	bridged
+912	UNSCRAMBLE	iatirvatogsn	gravitations
+913	UNSCRAMBLE	stubicorc	scorbutic
+914	UNSCRAMBLE	arsaimob	ambrosia
