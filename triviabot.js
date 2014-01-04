@@ -7,8 +7,11 @@ var TriviaBot = angular.module('TriviaBot', []);
 
 TriviaBot.controller('TriviaBotController', function($scope, $sce) {
 	var socket = '';
-	socket = io.connect('http://www.nikhilbaliga.com:8888');
-	socket = io.connect('http://localhost:8888');
+	if (location.href.indexOf('nikhilbaliga') > -1) {
+		socket = io.connect('http://www.nikhilbaliga.com:8888');
+	} else {
+		socket = io.connect('http://localhost:8888');
+	}
 
 	$scope.all_msgs = [];
 
