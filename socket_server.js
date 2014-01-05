@@ -99,6 +99,14 @@ io.sockets.on('connection', function(socket) {
     socket.on('submit_msg', function(data) {
         var msg = data.msg;
         var nick = socket.nick;
+
+        if (swearing_detected(msg)) {
+            var payload = {nick: RIDDLER, msg: "Don\'t use offensive words... Wash your mouth with soap x-("};
+            socket.emit('riddler_msg', payload);
+            return false;
+        }
+
+
         riddler_broadcast(nick, msg);
 
         // Check if answer is correct
@@ -147,7 +155,9 @@ io.sockets.on('connection', function(socket) {
         var i = allClients.indexOf(socket);
         allClients.splice(i, 1);
 
-        riddler_broadcast(RIDDLER, nick + ' has left...');
+        if (nick != undefined) {
+            riddler_broadcast(RIDDLER, nick + ' has left...');
+        }
 
         send_user_info();
 
@@ -359,4 +369,19 @@ function get_question_count() {
 
         });
     });
+}
+
+function swearing_detected(input) {
+    var swear_words = ['shit', 'fuck', 'dick', 'cunt', 'bitch', 'penis', 'cock', 'whore'];
+
+    var split_input = input.split(' ');
+    var found_swear = false;
+    split_input.forEach(function(each_word) {
+        if (swear_words.indexOf(each_word) > -1) {
+            found_swear = true;
+            return false;
+        }
+    });
+
+    return found_swear;
 }

@@ -67,15 +67,7 @@ TriviaBot.controller('TriviaBotController', function($scope, $sce) {
 	};
 
 	$scope.validate_nick = function() {
-		if ($scope.nick_has_space()) {
-			return false;
-		}
-
-		if ($scope.nick_too_long()) {
-			return false;
-		}
-
-		return true;
+		return !($scope.nick_has_space() || $scope.nick_too_long());
 	};
 
 	$scope.nick_has_space = function() {
