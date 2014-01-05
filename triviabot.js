@@ -28,7 +28,7 @@ TriviaBot.controller('TriviaBotController', function($scope, $sce) {
 			$scope.all_msgs.push(data);
 			$scope.$apply();
 
-			document.getElementById('message_list').scrollByPages(1);
+			document.getElementById('message_list').scrollByPages(100);
 
 			// Keep only recent x messages
 			if ($scope.all_msgs.length > 100) {
