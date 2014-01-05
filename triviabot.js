@@ -145,7 +145,7 @@ function put_smileys(input) {
 }
 
 function gen_smiley(smiley) {
-	var base_url = 'http://www.freesmileys.org/smileys/smiley-basic/';
+	var base_url = '//www.freesmileys.org/smileys/smiley-basic/';
 	var img_url = '';
 
 	switch (smiley) {
@@ -190,5 +190,5 @@ function gen_smiley(smiley) {
 			break;
 	}
 
-	return '<img src="' + base_url + img_url + '" title="Smiley Courtesy: http://www.freesmileys.org/ "/>';
+	return '<img src="' + base_url + img_url + '" title="freesmileys.org"/>';
 }
