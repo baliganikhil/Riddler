@@ -72,6 +72,10 @@ body {
         font-size: 14px; }
       .main_area .messages ul li.riddler_msg {
         color: #cc0000; }
+      .main_area .messages ul .my_nick {
+        background: #ffffc8;
+        padding: 3px;
+        border: dotted 1px #df9c9c; }
   .main_area .bottom_form {
     position: absolute;
     bottom: 0px;

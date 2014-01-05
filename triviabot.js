@@ -16,7 +16,7 @@ TriviaBot.controller('TriviaBotController', function($scope, $sce) {
 	$scope.all_msgs = [];
 
 	$scope.to_trusted = function(html_code) {
-    	return $sce.trustAsHtml(obfuscate(html_code));
+    	return $sce.trustAsHtml(html_code);
     };
 
     function obfuscate(input) {
@@ -25,6 +25,12 @@ TriviaBot.controller('TriviaBotController', function($scope, $sce) {
 
 	socket.on('connect', function() {
 		socket.on('riddler_msg', function(data) {
+			data.msg = obfuscate(data.msg);
+
+			// Highlight my nick
+			var mynick = new RegExp($scope.nick, 'g');
+			data.msg = data.msg.replace(mynick, '<span class="my_nick">' + $scope.nick + '</span>');
+
 			$scope.all_msgs.push(data);
 			$scope.$apply();
 
