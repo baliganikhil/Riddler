@@ -96,6 +96,10 @@ io.sockets.on('connection', function(socket) {
         allClients.push(socket);
     });
 
+    function obfuscate(input) {
+        return input.replace(/ /g, '<span class="junk_data">i</span>');
+    };
+
     socket.on('submit_msg', function(data) {
         var msg = data.msg;
         var nick = socket.nick;
@@ -212,7 +216,7 @@ io.sockets.on('connection', function(socket) {
                     return;
                 }
 
-                var msg = 'Category: ' + category + '...   ' + question;
+                var msg = 'Category: ' + category + '...   ' + obfuscate(question);
                 riddler_broadcast(RIDDLER, msg);
 
                 hint = generate_hint();

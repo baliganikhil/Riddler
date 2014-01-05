@@ -19,14 +19,8 @@ TriviaBot.controller('TriviaBotController', function($scope, $sce) {
     	return $sce.trustAsHtml(html_code);
     };
 
-    function obfuscate(input) {
-		return input.replace(/ /g, '<span class="junk_data">i</span>');
-	};
-
 	socket.on('connect', function() {
 		socket.on('riddler_msg', function(data) {
-			data.msg = obfuscate(data.msg);
-
 			// Highlight my nick
 			var mynick = new RegExp($scope.nick, 'g');
 			if (!nullOrEmpty($scope.nick)) {
@@ -130,16 +124,16 @@ function hide_popup() {
 
 function put_smileys(input) {
 
-	input = input.replace(/:(\-)?\)/g, gen_smiley(':)'));
-	input = input.replace(/:(\-)?\(/g, gen_smiley(':('));
-	input = input.replace(/;(\-)?\)/g, gen_smiley(';)'));
-	input = input.replace(/:(\-)?P/g, gen_smiley(':P'));
-	input = input.replace(/:(\-)?\//g, gen_smiley(':/'));
-	input = input.replace(/:(\-)?D/g, gen_smiley(':D'));
-	input = input.replace(/x(\-)?\(/g, gen_smiley('x('));
-	input = input.replace(/B(\-)?\)/g, gen_smiley('B)'));
-	input = input.replace(/\*ban\*/g, gen_smiley('*ban*'));
-	input = input.replace(/o\.O/g, gen_smiley('o.O'));
+	input = input.replace(/ :(\-)?\)/g, gen_smiley(':)'));
+	input = input.replace(/ :(\-)?\(/g, gen_smiley(':('));
+	input = input.replace(/ ;(\-)?\)/g, gen_smiley(';)'));
+	input = input.replace(/ :(\-)?P/g, gen_smiley(':P'));
+	input = input.replace(/ :(\-)?\//g, gen_smiley(':/'));
+	input = input.replace(/ :(\-)?D/g, gen_smiley(':D'));
+	input = input.replace(/ x(\-)?\(/g, gen_smiley('x('));
+	input = input.replace(/ B(\-)?\)/g, gen_smiley('B)'));
+	input = input.replace(/ \*ban\*/g, gen_smiley('*ban*'));
+	input = input.replace(/ o\.O/g, gen_smiley('o.O'));
 
 	return input;
 }
