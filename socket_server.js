@@ -131,7 +131,7 @@ io.sockets.on('connection', function(socket) {
                 }
 
                 riddler_broadcast(RIDDLER, reply);
-
+                check_milestone(nick);
                 send_user_info();
                 is_answered = true;
 
@@ -173,6 +173,17 @@ io.sockets.on('connection', function(socket) {
     function send_user_info() {
         socket.broadcast.emit('user_joined', all_users);
         socket.emit('user_joined', all_users);
+    }
+
+    function check_milestone(nick) {
+        var milestones = [5, 10, 25, 50, 75];
+        var score = all_users[nick];
+
+        if (milestones.indexOf(score) > -1 || score % 100 === 0) {
+            var congrats = 'Congratulations ' + nick + '! You have reached a milestone with ' + score + ' points. Let\'s see how far you can go';
+            riddler_broadcast(RIDDLER, congrats);
+        }
+
     }
 
     /**************************************************/
