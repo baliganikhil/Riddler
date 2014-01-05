@@ -43,23 +43,23 @@
 	</div>
 </div>
 
-<div class="panel_left">
+<div class="main_area">
+	<div class="panel_left">
 
-	<div class="leaderboard">
-		<h3>Leaderboard</h3>
+		<div class="leaderboard">
+			<h3>Leaderboard</h3>
 
-		<ul>
-			<li ng-repeat="(user, score) in all_users" ng-class="{bold: user == nick}">
-				{{user}}
-				<span class="score">{{score}}</span>
-			</li>
-		</ul>
+			<ul>
+				<li ng-repeat="(user, score) in all_users" ng-class="{bold: user == nick}">
+					{{user}}
+					<span class="score">{{score}}</span>
+				</li>
+			</ul>
+
+		</div>
 
 	</div>
 
-</div>
-
-<div class="main_area">
 	<div class="messages">
 		<ul id="message_list">
 			<li ng-repeat="(key, msg) in all_msgs" ng-class="{riddler_msg: is_riddler(msg.nick)}"><strong>{{msg.nick}}:</strong> <span ng-bind-html="to_trusted(msg.msg)"></span></li>

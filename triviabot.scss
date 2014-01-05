@@ -9,6 +9,7 @@ body {
 	top: 0;
 	left: 0;
 	right: 0;
+	height: 60px;
 	padding-left: 20px;
 	font-size: 16px;
 
@@ -19,60 +20,60 @@ body {
 	}
 }
 
-.panel_left {
-	border-right: solid 1px #ccc;
-	border-bottom: solid 1px #ccc;
-	position: absolute;
-	left: 0;
-	top: 60px;
-	bottom: 17px;
-	width: 250px;
-
-	h3 {
-		background: #eee;
-		padding: 5px 0 5px 20px;
-		margin: 0;
-		border: solid 1px #ddd;
-	}
-
-	.leaderboard {
-		ul {
-			list-style-type: none;
-			padding: 0;
-			margin: 0;
-		}
-
-		li {
-			padding: 10px;
-			position: relative;
-			padding-left: 10px;
-			font-size: 14px;
-			border: solid 1px #ddd;
-			margin-top: -1px;
-
-			.score {
-				position: absolute;
-				right: 10px;
-			}
-		}
-	}
-}
-
 .main_area {
 	position: absolute;
-	left: 260px;
+	left: 0;
 	top: 60px;
 	right: 10px;
 	bottom: 0px;
 	display: inline-block;
 	margin: auto;
 
+	.panel_left {
+		border-right: solid 1px #ccc;
+		border-bottom: solid 1px #ccc;
+		position: absolute;
+		left: 0;
+		top: 0px;
+		bottom: 17px;
+		width: 250px;
+
+		h3 {
+			background: #eee;
+			padding: 5px 0 5px 20px;
+			margin: 0;
+			border: solid 1px #ddd;
+		}
+
+		.leaderboard {
+			ul {
+				list-style-type: none;
+				padding: 0;
+				margin: 0;
+			}
+
+			li {
+				padding: 10px;
+				position: relative;
+				padding-left: 10px;
+				font-size: 14px;
+				border: solid 1px #ddd;
+				margin-top: -1px;
+
+				.score {
+					position: absolute;
+					right: 10px;
+				}
+			}
+		}
+	}
+
 	.messages {
 		border: solid 1px #ccc;
 		position: absolute;
 		top: 0;
 		right: 0;
-		left: 0;
+		left: 260px;
 		bottom: 50px;
 
 		ul {
@@ -106,7 +107,7 @@ body {
 		position: absolute;
 		bottom: 0px;
 		right: 0;
-		left: 0;
+		left: 260px;
 	}
 
 	.my_msg {
