@@ -33,6 +33,8 @@ TriviaBot.controller('TriviaBotController', function($scope, $sce) {
 				data.msg = data.msg.replace(mynick, '<span class="my_nick">' + $scope.nick + '</span>');
 			}
 
+			data.msg = put_smileys(data.msg);
+
 			$scope.all_msgs.push(data);
 			$scope.$apply();
 
@@ -124,4 +126,69 @@ function nullOrEmpty(input) {
 function hide_popup() {
 	document.getElementById('modal_backdrop').className += ' hide'
 	document.getElementById('popup').className += ' hide'
+}
+
+function put_smileys(input) {
+
+	input = input.replace(/:(\-)?\)/g, gen_smiley(':)'));
+	input = input.replace(/:(\-)?\(/g, gen_smiley(':('));
+	input = input.replace(/;(\-)?\)/g, gen_smiley(';)'));
+	input = input.replace(/:(\-)?P/g, gen_smiley(':P'));
+	input = input.replace(/:(\-)?\//g, gen_smiley(':/'));
+	input = input.replace(/:(\-)?D/g, gen_smiley(':D'));
+	input = input.replace(/x(\-)?\(/g, gen_smiley('x('));
+	input = input.replace(/B(\-)?\)/g, gen_smiley('B)'));
+	input = input.replace(/\*ban\*/g, gen_smiley('*ban*'));
+	input = input.replace(/o\.O/g, gen_smiley('o.O'));
+
+	return input;
+}
+
+function gen_smiley(smiley) {
+	var base_url = 'http://www.freesmileys.org/smileys/smiley-basic/';
+	var img_url = '';
+
+	switch (smiley) {
+		case ':)':
+			img_url = 'smile.gif';
+			break;
+
+		case ':(':
+			img_url = 'sad.gif';
+			break;
+
+		case ':P':
+			img_url = 'tongue.gif';
+			break;
+
+		case ':D':
+			img_url = 'biggrin.gif';
+			break;
+
+		case ';)':
+			img_url = 'wink.gif';
+			break;
+
+		case ':/':
+			img_url = 'dry.gif';
+			break;
+
+		case 'B)':
+			img_url = 'cool.gif';
+			break;
+
+		case 'x(':
+			img_url = 'mad.gif';
+			break;
+
+		case '*ban*':
+			img_url = 'banned.gif';
+			break;
+
+		case 'o.O':
+			img_url = 'blink.gif';
+			break;
+	}
+
+	return '<img src="' + base_url + img_url + '" title="Smiley Courtesy: http://www.freesmileys.org/ "/>';
 }
