@@ -128,17 +128,32 @@ body {
 	text-decoration: none;
 	padding: 8px 15px 8px 15px;
 	background: #008B00;
+	border: solid 1px #008B00;
 	color: #eee;
 	font-size: 13px;
 	position: absolute;
 	text-shadow: 0 0 1px #444;
 	border-radius: 3px;
 	right: 25px;
-	top: 15px;
+	top: 7px;
+	font-weight: bold;
+}
+
+.login_button:disabled {
+	background: #6CBB6C;
+	border: solid 1px #53A353;
 }
 
 .login_button:hover {
 	opacity: 0.9;
+}
+
+.nick_errors {
+	text-align: center;
+
+	span {
+		color: #cc0000;
+	}
 }
 
 .modal_backdrop {

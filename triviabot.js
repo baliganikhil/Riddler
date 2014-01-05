@@ -55,22 +55,47 @@ TriviaBot.controller('TriviaBotController', function($scope, $sce) {
 				return;
 			}
 
+			$scope.nick = $scope.nick_field;
 			hide_popup();
 		});
 	});
 
 	$scope.set_nick = function() {
-		var nick = $scope.nick;
+		var nick = $scope.nick_field;
 
-		if (nullOrEmpty(nick)) {
-			return false;
-		} else if (nick.length > 12) {
-			alert('Your nick is too long. Max 12 characters allowed');
+		socket.emit('set_nick', {nick: nick});
+	};
+
+	$scope.validate_nick = function() {
+		if ($scope.nick_has_space()) {
 			return false;
 		}
 
-		socket.emit('set_nick', {nick: nick});
+		if ($scope.nick_too_long()) {
+			return false;
+		}
 
+		return true;
+	};
+
+	$scope.nick_has_space = function() {
+		var nick = $scope.nick_field;
+
+		if (nick && nick.indexOf(' ') > -1) {
+			return true;
+		} else {
+			return false;
+		}
+	};
+
+	$scope.nick_too_long = function() {
+		var nick = $scope.nick_field;
+
+		if (nick && nick.length > 12) {
+			return true;
+		} else {
+			return false;
+		}
 	};
 
 	$scope.submit_msg = function() {

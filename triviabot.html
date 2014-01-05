@@ -1,7 +1,7 @@
 <html ng-app="TriviaBot">
 <head>
-	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
-	<!-- <script type="text/javascript" src="angular.min.js"></script> -->
+	<!--script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script-->
+	<script type="text/javascript" src="angular.min.js"></script>
 	<script type="text/javascript" src="triviabot.js"></script>
 
 	<title>Riddler - Think you are smart?</title>
@@ -74,6 +74,7 @@
 
 <div class="modal_backdrop" id="modal_backdrop"></div>
 <div class="popup" id="popup">
+	<form name="FormNick">
 	<div class="header">
 		Welcome to The Riddler
 	</div>
@@ -87,12 +88,18 @@
 		</p>
 
 		<p class="align_center">
-		<input type="text" class="nick" ng-model="nick" placeholder="Enter your nickname">
+			<input type="text" class="nick" ng-model="nick_field" placeholder="Enter your nickname" required>
+
+			<div class="nick_errors">
+				<span ng-show="nick_has_space()">No spaces allowed</span>
+				<span ng-show="nick_too_long()">Too long. Max 12 chars</span>
+			</div>
 		</p>
 	</div>
 	<div class="footer">
-		<a href="javascript: void(0);" class="login_button" ng-click="set_nick()">Start Playing</a>
+		<button type="submit" class="login_button" ng-click="set_nick()" ng-disabled="FormNick.$invalid || !validate_nick()">Start Playing</button>
 	</div>
+	</form>
 </div>
 
 <script src="/node_modules/socket.io/node_modules/socket.io-client/dist/socket.io.js"></script>
