@@ -29,7 +29,9 @@ TriviaBot.controller('TriviaBotController', function($scope, $sce) {
 
 			// Highlight my nick
 			var mynick = new RegExp($scope.nick, 'g');
-			data.msg = data.msg.replace(mynick, '<span class="my_nick">' + $scope.nick + '</span>');
+			if (!nullOrEmpty($scope.nick)) {
+				data.msg = data.msg.replace(mynick, '<span class="my_nick">' + $scope.nick + '</span>');
+			}
 
 			$scope.all_msgs.push(data);
 			$scope.$apply();
